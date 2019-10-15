@@ -160,7 +160,7 @@
 }
 
 .description_size_xs {
-  max-width: 440px;
+  max-width: 475px;
 }
 
 .description_size_s {
@@ -221,8 +221,16 @@
   text-align: center;
 }
 
+.description__text_margin_medium {
+  margin-bottom: 55px;
+}
+
+.description__text_margin_large {
+  margin-bottom: 70px;
+}
+
 .button-block {
-  width: 85%;
+  max-width: 440px;
   min-height: 50px;
   display: flex;
   justify-content: space-between;
@@ -359,6 +367,7 @@
 
 .conversion-list {
   max-width: 1920px;
+  min-height: 1425px;
   background: url("./images/conversionfon.jpg") 0% 300px;
   background-size: 1920px 1097px;
   background-repeat: space;
@@ -396,5 +405,48 @@
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
+  color: #525f7f;
+}
+
+.safety-and-move {
+  max-width: 1240px;
+  margin: 200px auto 0;
+  height: auto;
+}
+
+.safety-and-move-wrapper {
+  width: 100%;
+  min-width: 462px;
+  background: url("./images/safety_foto.png") 100%;
+  background-repeat: no-repeat;
+}
+
+.safety-and-move-wrapper_rotate {
+  transform: rotate(180deg);
+}
+.auto {
+  max-width: 550px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.auto-wrapper {
+  flex-basis: 40%;
+}
+
+.auto__title {
+  font-family: "Brown-Light";
+  font-size: 30px;
+  text-align: left;
+  color: #4d4d73;
+  margin-bottom: 30px;
+}
+
+.auto__subtitle {
+  font-family: "Brown-Light";
+  font-size: 16px;
+  line-height: 1.5;
   color: #525f7f;
 }
