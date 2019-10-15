@@ -359,4 +359,38 @@
 }
 
 .conversion-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.conversion-item {
+  flex-basis: 21%;
+  min-width: 250px;
+  min-height: 250px;
+  margin-top: 145px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+.conversion__icon {
+  display: block;
+  margin: 0 auto 50px;
+}
+
+.conversion__title {
+  font-family: "Brown-Regular";
+  font-size: 20px;
+  color: #212240;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.conversion__subtitle {
+  font-family: "Brown-Light";
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #525f7f;
 }
