@@ -1,0 +1,362 @@
+/* @font-face {
+  font-family: "Brown-Bold";
+  src: url("./fonts/Brown-Bold.ttf") format("ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Brown-Regular";
+  src: url("./fonts/Brown-Regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Brown-Light";
+  src: url("./fonts/Brown-Light.ttf") format("ttf");
+  font-weight: 900;
+  font-style: normal;
+} */
+@font-face {
+  font-family: "Brown-Light";
+  src: url("./fonts/Brown-Light.eot");
+  src: url("./fonts/Brown-Light.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Brown-Light.woff2") format("woff2"),
+    url("./fonts/Brown-Light.woff") format("woff"),
+    url("./fonts/Brown-Light.ttf") format("truetype"),
+    url("./fonts/Brown-Light.svg#Brown-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Brown-Bold";
+  src: url("./fonts/Brown-Bold.eot");
+  src: url("./fonts/Brown-Bold.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Brown-Bold.woff2") format("woff2"),
+    url("./fonts/Brown-Bold.woff") format("woff"),
+    url("./fonts/Brown-Bold.ttf") format("truetype"),
+    url("./fonts/Brown-Bold.svg#Brown-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Brown-Regular";
+  src: url("./fonts/Brown-Regular.eot");
+  src: url("./fonts/Brown-Regular.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Brown-Regular.woff2") format("woff2"),
+    url("./fonts/Brown-Regular.woff") format("woff"),
+    url("./fonts/Brown-Regular.ttf") format("truetype"),
+    url("./fonts/Brown-Regular.svg#Brown-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+}
+
+.content {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 20px;
+  background: url("./images/monument_foto.png") 100% 0%,
+    url("./images/building.jpg") 13% 0%, url("./images/building2.jpg") 0% 800px;
+  background-repeat: no-repeat;
+  background-size: 1040px 1030px, 855px 700px, 526px 482px;
+}
+
+.header {
+  max-width: 1240px;
+  height: auto;
+  margin: 0 auto;
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 152px;
+  height: 47px;
+}
+
+.logo__link {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+.logo__img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.menu {
+  flex-basis: 600px;
+  height: auto;
+}
+
+.menu__list {
+  width: 100%;
+  min-height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Brown-Bold", sans-serif;
+}
+
+.menu__item {
+  height: auto;
+  font-size: 20px;
+  display: block;
+  line-height: 2.5;
+}
+
+.menu__link {
+  display: block;
+  color: #32325d;
+  padding: 0 24px;
+}
+
+.menu__link:hover {
+  border-radius: 3px;
+  background-color: #845cff;
+  color: #fff;
+}
+
+.stability {
+  max-width: 1920px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.stability-container {
+  max-width: 1240px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.description {
+  height: auto;
+}
+
+.description__stability {
+  margin-top: 250px;
+}
+
+.margin-top {
+  margin-top: 200px;
+}
+
+.description_size_xs {
+  max-width: 440px;
+}
+
+.description_size_s {
+  max-width: 530px;
+}
+
+.description_size_m {
+  max-width: 580px;
+}
+
+.description_size_l {
+  max-width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.description__title {
+  line-height: 62px;
+  font-size: 48px;
+  text-align: left;
+  color: #32325d;
+  width: 100%;
+  height: auto;
+}
+
+.description__title_weight_bold {
+  font-family: "Brown-Bold";
+}
+
+.description__title_weight_light {
+  font-family: "Brown-Light";
+  font-weight: 300;
+}
+
+.stability__title {
+  margin-bottom: 50px;
+}
+
+.description__text {
+  font-family: "Brown-Light";
+  font-size: 23px;
+  line-height: 32px;
+  color: #525f7f;
+  height: auto;
+}
+
+.stability__text {
+  width: 88%;
+  margin-bottom: 45px;
+}
+
+.description__text_width_max {
+  width: 100%;
+}
+
+.description__text_align_center {
+  width: 98%;
+  text-align: center;
+}
+
+.button-block {
+  width: 85%;
+  min-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.open-form-button {
+  width: 145px;
+  height: 45px;
+  background-color: #845cff;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 3px;
+  color: #fff;
+  font-family: "Brown-Bold";
+  text-transform: uppercase;
+  outline: none;
+}
+
+.open-questions-form-button {
+  font-family: "Brown-Regular";
+  max-width: 270px;
+  height: 15px;
+  font-size: 18px;
+  text-align: center;
+  color: #4d4d73;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+
+.open-questions-form-button:hover {
+  color: #f79b86;
+}
+
+.form {
+  max-width: 450px;
+  min-height: 450px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #eef0fa;
+  visibility: hidden;
+  position: absolute;
+}
+
+.form__field {
+  width: 80%;
+  height: 40px;
+  border-radius: 3px;
+  font-family: "Brown-Light";
+  padding: 0 10px;
+  font-size: 24px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.form__button {
+  width: 80%;
+  height: 45px;
+  border-radius: 3px;
+  background-color: #845cff;
+  font-family: "Brown-Bold";
+  outline: none;
+  color: #fff;
+  font-size: 24px;
+  border: none;
+}
+
+.form__button:hover {
+  background-color: #f79b86;
+  color: #000;
+  box-shadow: 0 0 15px 3px #c4968c;
+}
+
+.improve {
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.improve-container {
+  max-width: 1240px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.improve-item {
+  background-color: #fff;
+  border-radius: 10px;
+  flex-basis: 45%;
+  height: auto;
+  min-height: 460px;
+  margin-top: 60px;
+  padding: 59px;
+  box-sizing: border-box;
+  box-shadow: -7px 7px 20px 0 rgba(212, 212, 250, 0.2);
+}
+
+.improve__image {
+  padding-bottom: 55px;
+}
+
+.improve__title {
+  line-height: auto;
+  font-size: 30px;
+  text-align: left;
+  color: #3f3f59;
+  font-family: "Brown-Light";
+  margin-bottom: 30px;
+}
+
+.many-block-title {
+  margin-bottom: 40px;
+}
+
+.improve__text {
+  line-height: 25px;
+  font-size: 18px;
+  text-align: left;
+  color: #525f7f;
+  font-family: "Brown-Light";
+}
+
+.conversion {
+  margin: 0 auto;
+  max-width: 1240px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.conversion-list {
+}
