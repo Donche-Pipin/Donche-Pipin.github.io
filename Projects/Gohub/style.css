@@ -254,6 +254,11 @@
   outline: none;
 }
 
+.open-form-button:hover {
+  background-color: #f79b86;
+  color: #000;
+}
+
 .open-questions-form-button {
   font-family: "Brown-Regular";
   max-width: 270px;
@@ -647,6 +652,10 @@
   color: #d3d3d9;
 }
 
+.phone__link:hover {
+  color: #f79b86;
+}
+
 .info-website {
   opacity: 0.8;
   font-family: "Brown-Regular";
@@ -657,6 +666,9 @@
   color: #d3d3d9;
 }
 
+.info-website__link:hover {
+  color: #f79b86;
+}
 .social-media {
   width: 95%;
   opacity: 0.8;
@@ -666,6 +678,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.social-media__img:hover {
+  transform: scale(2);
+  background-color: #845cff;
+  border-radius: 3px;
+  box-shadow: 0 0 5px 5px #845cff;
 }
 
 .many-links {
@@ -698,6 +717,10 @@
 
 .footer__link {
   color: #d3d3d9;
+}
+
+.footer__link:hover {
+  color: #f79b86;
 }
 
 .footer__item_theme_light {
@@ -747,4 +770,8 @@
 
 .copyright-tools__link {
   color: #555377;
+}
+
+.copyright-tools__link:hover {
+  color: #f79b86;
 }
