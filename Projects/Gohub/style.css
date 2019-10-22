@@ -149,6 +149,7 @@
 
 .description {
   height: auto;
+  padding: 0 20px;
 }
 
 .description__stability {
