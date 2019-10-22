@@ -54,6 +54,10 @@
   opacity: 0.4;
   background-color: #dcdcdc;
 }
+.theme_indeveloping {
+  opacity: 0.8;
+  background-color: #e9d7d7;
+}
 .project__link {
   width: 100%;
   height: 100%;
