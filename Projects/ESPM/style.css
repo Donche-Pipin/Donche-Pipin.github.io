@@ -1147,6 +1147,7 @@
 	max-width: 1650px;
 	height: auto;
 	padding: 0 20px;
+	margin: 0 auto;
 	display: grid;
 	grid-template-rows: 245px 451px 110px;
 	grid-template-columns: 0.96fr 320px 320px 320px 1fr;	
