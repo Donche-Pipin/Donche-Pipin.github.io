@@ -277,7 +277,8 @@
 	border: none;
 	outline: none;
 	display: inline-block;
-    box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-appearance: none;
 }
 
 .button:hover {
