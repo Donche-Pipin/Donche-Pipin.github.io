@@ -32,7 +32,7 @@
 }
 
 .phone {
-	font-family: IBM Plex Sans;
+	font-family: "IBM Plex Sans", sans-serif;
 	font-size: 24px;
  	font-weight: bold;
 	text-align: right;
@@ -62,7 +62,7 @@
 }
 
 .line{
-  width 100%;
+  width: 100%;
   height: 5px;
   background-color: #000;
   display: block;
@@ -153,7 +153,7 @@
 .menu__item {
 	height: auto;
 	list-style-type: none;
-	font-family: IBM Plex Sans;
+	font-family: "IBM Plex Sans", sans-serif;
 	font-size: 16px;
 	font-weight: bold;
 }
@@ -233,7 +233,7 @@
 
 .welcome-block-container__title {
 	height: auto;
-	font-family: IBM Plex Sans;
+	font-family: "IBM Plex Sans", sans-serif;
 	font-size: 64px;
 	font-weight: bold;
 	line-height: 1.08;
@@ -250,7 +250,7 @@
 
 .welcome-block-container__text {
 	height: auto;
-	font-family: IBM Plex Sans;
+	font-family: "IBM Plex Sans", sans-serif;
 	font-size: 24px;
 	line-height: 1.38;
   	padding-bottom: 34px;
@@ -269,7 +269,7 @@
 }
 
 .button {
-	font-family: IBM Plex Sans;
+	font-family: "IBM Plex Sans", sans-serif;
 	font-size: 24px;
 	font-weight: bold;
 	line-height: 1.38;
@@ -364,7 +364,7 @@
 }
 
 .activities-item__title {
-	font-family: IBM Plex Sans;
+	font-family: "IBM Plex Sans", sans-serif;
 	font-size: 24px;
 	font-weight: 600;
 	line-height: 1;
@@ -425,7 +425,7 @@
 }
 
 .mission-values__title {
-	font-family: IBM Plex Sans;
+	font-family: "IBM Plex Sans", sans-serif;
 	font-size: 64px;
 	font-weight: bold;
 	line-height: 1.03;
@@ -438,7 +438,7 @@
 }
 
 .mission-values__title-sub {
-	font-family: IBM Plex Sans;
+	font-family: "IBM Plex Sans", sans-serif;
 	font-size: 24px;
 	line-height: 1.25;
 	color: #ffffff;
@@ -462,7 +462,7 @@
 
 .values__item {
 	list-style-type: none;
-	font-family: IBM Plex Sans;
+	font-family: "IBM Plex Sans", sans-serif;
 	font-size: 16px;
 	font-weight: 300;
 	font-style: normal;
@@ -519,7 +519,7 @@
 }
 
 .experience-container-second-block__title {
-	font-family: IBM Plex Sans;
+	font-family: "IBM Plex Sans", sans-serif;
 	font-size: 64px;
 	font-weight: bold;
 	font-style: normal;
@@ -593,7 +593,7 @@
 
 .experience-title {
 	height: 40px;
-	font-family: IBM Plex Sans;
+	font-family: "IBM Plex Sans", sans-serif;
 	font-size: 24px;
 	font-weight: bold;
 	font-style: normal;
@@ -604,7 +604,7 @@
 }
 
 .experience-text {
-	font-family: IBM Plex Sans;
+	font-family: "IBM Plex Sans", sans-serif;
 	font-size: 16px;
 	font-weight: normal;
 	font-style: normal;
@@ -697,7 +697,7 @@
 .form-block-left-container__title {
 	width: 100%;
 	height: auto;
-	font-family: IBM Plex Sans;
+	font-family: "IBM Plex Sans", sans-serif;
 	font-size: 36px;
 	font-weight: bold;
 	font-style: normal;
@@ -713,7 +713,7 @@
 }
 
 .form {
-	font-family: IBM Plex Sans;
+	font-family: "IBM Plex Sans", sans-serif;
 	color: #fff;
 	max-width: 380px;
 }
@@ -814,7 +814,7 @@
 }
 
 .contact-block__title {
-	font-family: IBM Plex Sans;
+	font-family: "IBM Plex Sans", sans-serif;
 	font-size: 36px;
 	font-weight: bold;
 	font-style: normal;
@@ -835,7 +835,7 @@
 .contact-block__text {
 	max-width: 215px;
 	height: auto;
-	font-family: IBM Plex Sans;
+	font-family: "IBM Plex Sans", sans-serif;
 	font-size: 24px;
 	font-weight: bold;
 	font-style: normal;
@@ -870,7 +870,7 @@
 
 .rights-icon {
 	min-width: 100px;
-	font-family: IBM Plex Sans;
+	font-family: "IBM Plex Sans", sans-serif;
 	font-size: 12px;
 	font-weight: 600;
 	font-style: normal;
@@ -893,7 +893,7 @@
 }
 
 .footer-menu-list__item {
-	font-family: IBM Plex Sans;
+	font-family: "IBM Plex Sans", sans-serif;
 	font-size: 12px;
 	font-weight: 600;
 	font-style: normal;
@@ -914,7 +914,7 @@
 .button-up {
 	min-width: 100px;
 	height: auto;
-	font-family: IBM Plex Sans;
+	font-family: "IBM Plex Sans", sans-serif;
 	font-size: 12px;
 	font-weight: 600;
 	font-style: normal;
@@ -947,7 +947,7 @@
 .breadcrumbs__item {
 	width: auto;
 	height: 40px;
-	font-family: IBM Plex Sans;
+	font-family: "IBM Plex Sans", sans-serif;
 	font-size: 12px;
 	font-weight: bold;
 	font-style: normal;
@@ -970,7 +970,7 @@
 .breadcrumbs__arrow {
 	width: 7px;
 	height: 8px;
-	font-family: IBM Plex Sans;
+	font-family: "IBM Plex Sans", sans-serif;
 	font-size: 9px;
 	font-weight: 200;
 	font-style: normal;
@@ -984,7 +984,7 @@
 .breadcrumbs__active {
 	width: auto;
 	height: 40px;
-	font-family: IBM Plex Sans;
+	font-family: "IBM Plex Sans", sans-serif;
 	font-size: 12px;
 	font-weight: normal;
 	font-style: normal;
@@ -1067,7 +1067,7 @@
 	width: 248px;
 	height: 236px;
 	opacity: 0.6;
-	font-family: IBM Plex Sans;
+	font-family: "IBM Plex Sans", sans-serif;
 	font-size: 160px;
 	font-weight: bold;
 	font-style: normal;
@@ -1106,14 +1106,14 @@
 }
 
 .jobs-item__title {
-	font-family: IBM Plex Sans;
+	font-family: "IBM Plex Sans", sans-serif;
 	font-size: 36px;
 	font-weight: bold;
 	line-height: 0.94;
 }
 
 .jobs-item__text {
-	font-family: IBM Plex Sans;
+	font-family: "IBM Plex Sans", sans-serif;
 	font-size: 16px;
 	font-weight: normal;
 	font-style: normal;
@@ -1242,7 +1242,7 @@
 .slider-title {
 	max-width: 264px;
 	height: 40px;
-	font-family: IBM Plex Sans;
+	font-family: "IBM Plex Sans", sans-serif;
 	font-size: 24px;
 	font-weight: bold;
 	font-style: normal;
@@ -1256,7 +1256,7 @@
 
 .project-container-second-block__title {
 	display: inline-block;
-	font-family: IBM Plex Sans;
+	font-family: "IBM Plex Sans", sans-serif;
 	font-size: 64px;
 	font-weight: bold;
 	font-style: normal;
@@ -1270,7 +1270,7 @@
 .slider-text {
 	max-width: 282px;
 	height: auto;
-	font-family: IBM Plex Sans;
+	font-family: "IBM Plex Sans", sans-serif;
 	font-size: 16px;
 	font-weight: normal;
 	font-style: normal;
@@ -1351,7 +1351,7 @@
 }
 
 .skills-big-block__title {
-	font-family: IBM Plex Sans;
+	font-family: "IBM Plex Sans", sans-serif;
 	font-size: 64px;
 	font-weight: bold;
 	font-style: normal;
@@ -1361,7 +1361,7 @@
 }
 
 .skills-block__title {
-	font-family: IBM Plex Sans;
+	font-family: "IBM Plex Sans", sans-serif;
 	font-size: 24px;
 	font-weight: bold;
 	font-style: normal;
@@ -1373,7 +1373,7 @@
 }
 
 .skills-block__text {
-	font-family: IBM Plex Sans;
+	font-family: "IBM Plex Sans", sans-serif;
 	font-size: 16px;
 	font-weight: normal;
 	font-style: normal;
