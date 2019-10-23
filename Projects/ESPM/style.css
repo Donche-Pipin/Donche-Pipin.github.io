@@ -750,7 +750,8 @@
     border: none;
     margin-bottom: 25px;
     box-sizing: border-box;
-    outline: none;
+	outline: none;
+	border-radius: 0;
 }
 
 .form__comment:hover {
