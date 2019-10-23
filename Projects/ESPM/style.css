@@ -940,7 +940,7 @@
 
 .breadcrumbs__list {
 	list-style-type: none;
-	width: 940px;
+	max-width: 940px;
 	padding: 0 20px;
 	margin: 0 auto;
 }
@@ -1515,6 +1515,18 @@
 		width: 250px;
 		padding: 30px 0 30px 50px;
 	}
+	.slider {
+		max-width: 640px;
+	}
+
+	.project-container {
+		margin: 0 auto;
+		max-width: 640px;
+	}
+
+	.construction-img {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 910px) {
@@ -1654,10 +1666,6 @@
 	.main_title_construction {
 		font-size: 48px;
 	}
-	
-	.project-container {
-		margin: 0 5%;
-	}
 }
 
 @media screen and (max-width: 767px) {
@@ -1669,9 +1677,9 @@
 		right: 360px;
 	}
 	
-	.project-container {
+	/* .project-container {
 		margin: 0 2%;
-	}
+	} */
 }
 
 @media screen and (max-width: 710px) {
@@ -1773,20 +1781,30 @@
 		top: -40px;
 	}
 
+	.project-container-second-block__title {
+		max-width: 300px;
+		font-size: 34px;
+	}
+
 	.slider {
+		max-width: 320px;
 		border-right: 3px solid black;
 	}
-	
+
 	.project-container-second-block {
 		box-sizing: border-box;
+		max-width: 320px;
 	}
 
-	.project-container-second-block__title {
+	/* .project-container-second-block__title {
 		font-size: 46px;
-	}
+	} */
 
 	.project-container {
-		margin: 0;
+		max-width: 320px;
+	}
+	.project-button {
+		margin: 0 auto;
 	}
 }
 
@@ -1798,10 +1816,6 @@
 
 	.activities-container {
 		height: 220px;
-	}
-	
-	.project-container-second-block__title {
-		max-width: 500px;
 	}
 
 	.header-content__phone {
@@ -1871,10 +1885,6 @@
 	
 	.skills-big-block__title {
 		font-size: 56px;
-	}
-	
-	.construction-img {
-		display: none;
 	}
 }
 
@@ -2000,10 +2010,10 @@
 		font-size: 32px;
 	}
 
-	.project-container-second-block__title {
+	/* .project-container-second-block__title {
 		font-size: 40px;
 		max-width: 400px;
-	}
+	} */
 }
 
 @media screen and (max-width: 390px) {
@@ -2059,14 +2069,14 @@
 	}
 }
 
-@media screen and (max-width: 360px) {
+/* @media screen and (max-width: 360px) {
 	.project-container-second-block {
 		grid-row-start: 1;
 		grid-column-start: 2;
 		grid-row-end: 2;
 		grid-column-end: 3;
 	}
-}
+} */
 
 @media screen and (max-width: 350px) {
 	.phone {
@@ -2152,7 +2162,7 @@
 
 	.project-container-second-block__title {
 		width: 280px;
-		font-size: 34px;
+		font-size: 30px;
 	}
 
 	.skills-container {
@@ -2163,14 +2173,35 @@
 	}
 
 	.project-container {
- 		width: 320px;
- 		padding: 0;	
-	}
-	
-	.slider {
-		max-width: 320px;
+ 		width: 280px;
 	}
 
+	.project-container-second-block {
+		max-width: 280px;
+	}
+
+	.slider {
+		max-width: 280px;
+	}
+
+	.slider__block {
+		width: 280px;
+	}
+	.slider-img {
+		max-width: 240px;
+	}
+
+	.slider-title {
+		max-width: 232px;
+	}
+
+	.slider-text {
+		max-width: 230px;
+	}
+
+	.project-button {
+		margin-left: 20px;
+	}
 	.jobs-item {
 		margin-top: 75px;
 	}
