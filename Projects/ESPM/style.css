@@ -279,7 +279,7 @@
 	display: inline-block;
 	box-sizing: border-box;
 	-webkit-appearance: none;
-	-webkit-border-radius: 0;
+	border-radius: 0;
 }
 
 .button:hover {
@@ -734,6 +734,7 @@
 	border: none;
 	box-sizing: border-box;
 	outline: none;
+	border-radius: 0;
 }
 
 .form__input:hover {
