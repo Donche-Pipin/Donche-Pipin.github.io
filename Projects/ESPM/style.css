@@ -279,7 +279,7 @@
 	display: inline-block;
 	box-sizing: border-box;
 	-webkit-appearance: none;
-	border-radius: none;
+	border-radius: 0;
 }
 
 .button:hover {
