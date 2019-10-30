@@ -687,7 +687,7 @@
   padding: 0 20px;
 }
 
-.footer-many-links {
+.footer-container {
   padding-top: 150px;
   display: flex;
   flex-wrap: wrap;
@@ -751,8 +751,8 @@
   box-shadow: 0 0 5px 5px #845cff;
 }
 
-.many-links {
-  max-width: 750px;
+.links-group {
+  max-width: 730px;
   width: 100%;
   height: auto;
   display: flex;
@@ -768,11 +768,16 @@
   padding: 0 20px;
 }
 
-.footer-list {
+.footer-list-container {
   opacity: 0.8;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+
+.footer-list__title {
+  line-height: 50px;
+  color: #d3d3d9;
 }
 
 .footer__item {
@@ -787,13 +792,13 @@
   color: #f79b86;
 }
 
-.footer__item_theme_light {
+.footer-list-container_theme_light {
   font-family: "Brown_light", sans-serif;
   line-height: 50px;
   min-width: 160px;
 }
 
-.footer__item_theme_regular {
+.footer-list-container_theme_regular {
   font-family: "Brown-Regular", sans-serif;
   line-height: 62px;
   min-width: 215px;
@@ -814,6 +819,7 @@
   font-size: 16px;
   font-family: "Brown-Light", sans-serif;
   line-height: 70px;
+  margin-right: 19px;
 }
 
 .copyright-tools {
@@ -876,8 +882,8 @@
     background-position-y: 18px;
   }
 
-  .links-container {
-    margin-top: 40px;
+  .links-group {
+    max-width: 600px;
   }
 }
 
@@ -894,7 +900,39 @@
     flex-basis: 80% !important;
     padding-left: 0 !important;
   }
+
+  .links-group {
+    flex-direction: column;
+    max-width: 215px;
+    text-align: end;
+    justify-content: flex-start;
+  }
+
+  .links-container {
+    cursor: pointer;
+  }
+
+  .footer-list__title {
+    display: inline-block;
+    border-bottom: 3px solid transparent;
+    line-height: 1.5;
+  }
+  .footer-lint__title:hover {
+    color: #f79b86;
+  }
+  .links-container:nth-child(2) {
+    padding: 0;
+  }
+
+  .footer-list {
+    display: none;
+  }
+
+  .footer-container {
+    justify-content: space-evenly;
+  }
 }
+
 @media (max-width: 767px) {
   .improve-item {
     flex-basis: 85%;
@@ -920,13 +958,22 @@
     margin-left: 0;
   }
 
-  .many-links {
+  .links-group {
     flex-wrap: wrap;
   }
 }
 @media (max-width: 556px) {
   .conversion-list-container {
     justify-content: center;
+  }
+
+  .copyright {
+    justify-content: center;
+    padding: 100px 20px 90px;
+  }
+
+  .copyright-company {
+    order: 2;
   }
 }
 
@@ -966,6 +1013,21 @@
 
   .ready-form {
     padding: 0;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .links-group {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .contacts {
+    margin: 0;
+    text-align: center;
   }
 }
 
