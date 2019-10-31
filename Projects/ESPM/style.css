@@ -731,7 +731,7 @@
 	padding: 0 15px;
     font-size: 18px;
 	font-family: inherit;
-	border: none;
+	border: border: 5px solid transparent;
 	box-sizing: border-box;
 	outline: none;
 	border-radius: 0;
@@ -739,7 +739,7 @@
 }
 
 .form__input:hover {
-	outline: 5px solid black;
+	border: 5px solid black;
 }
 
 .form__comment {
@@ -748,7 +748,7 @@
 	padding: 10px 15px;
     font-size: 18px;
     font-family: inherit;
-    border: none;
+    border: 5px solid transparent;
     margin-bottom: 25px;
     box-sizing: border-box;
 	outline: none;
@@ -757,7 +757,7 @@
 }
 
 .form__comment:hover {
-	outline: 5px solid black;
+	border: 5px solid black;
 }
 
 .form__field-title {
