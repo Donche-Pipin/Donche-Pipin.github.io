@@ -291,6 +291,11 @@
   flex-wrap: wrap;
 }
 
+.open-form-button-container {
+  width: 140px;
+  height: 21px;
+  flex-shrink: 0;
+}
 .open-form-button {
   width: 145px;
   height: 45px;
@@ -323,6 +328,7 @@
   border: none;
   background: transparent;
   flex-shrink: 0;
+  outline: none;
 }
 
 .open-questions-form-button:hover {
@@ -338,8 +344,8 @@
   justify-content: space-evenly;
   align-items: center;
   background-color: #eef0fa;
-  visibility: hidden;
   position: absolute;
+  visibility: hidden;
 }
 
 .form__field {
@@ -861,12 +867,19 @@
   }
 }
 @media (max-width: 991px) {
+  .stability__text {
+    color: #000;
+  }
   .improve-container {
     justify-content: center;
   }
 
   .improve-item {
     flex-basis: 70%;
+  }
+
+  .auto__subtitle {
+    color: #000;
   }
 
   .finances {
@@ -965,6 +978,18 @@
 @media (max-width: 556px) {
   .conversion-list-container {
     justify-content: center;
+  }
+
+  .mini-form {
+    flex-direction: column;
+  }
+
+  .form__field_form_sub {
+    text-align: center;
+  }
+
+  .open-form-button-container {
+    margin-top: 20px;
   }
 
   .copyright {
