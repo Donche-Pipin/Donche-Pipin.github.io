@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700&display=swap");
+
+.wrapper {
+  background-image: url(../images/headerfon.jpg);
+}
+
+.logo {
+  margin: 85px 0;
+  cursor: pointer;
+}
+
+.nav-item {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.nav-link::after {
+  content: "\\\\";
+  padding-left: 30px;
+}
+
+.nav-item:last-child .nav-link:after {
+  content: "";
+  padding-left: 0;
+}
+
+.nav-link_theme_light {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #1f2225;
+}
