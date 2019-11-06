@@ -1,11 +1,19 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap");
 
-.wrapper {
+.header-wrapper {
   background-image: url(../images/headerfon.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header {
+  padding: 85px 0 210px;
+}
+.navbar {
+  padding: 0;
 }
 
 .logo {
-  margin: 85px 0;
   cursor: pointer;
 }
 
@@ -30,4 +38,44 @@
 
 .nav-link:hover {
   color: #1f2225;
+}
+
+.primary {
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+}
+.primary-uptitle {
+  font-size: 2.8rem;
+  font-weight: 300;
+  letter-spacing: -0.9px;
+  line-height: 55px;
+  margin-bottom: 0;
+}
+
+.primary-title {
+  font-size: 4.3rem;
+  font-weight: 700;
+  letter-spacing: -4.2px;
+  line-height: 80px;
+  margin-bottom: 0;
+}
+
+.primary-subtitle {
+  font-size: 2.5rem;
+  font-weight: 300;
+  letter-spacing: -2.4px;
+  line-height: 50px;
+  margin-bottom: 0;
+}
+
+.button {
+  margin-top: 95px;
+  margin-bottom: 290px;
+}
+
+.btn {
+  border-radius: 0;
+  padding: 9px 30px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
 }
