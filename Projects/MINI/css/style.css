@@ -173,6 +173,7 @@
   padding: 46px;
   border: 3px solid #f39c12;
   border-radius: 64px;
+  color: #0d0d0d !important;
 }
 
 .percent {
@@ -294,19 +295,60 @@
   margin-bottom: 0;
 }
 
+.card-title_theme_dark {
+  font-size: 20px;
+  color: #0d0d0d;
+  line-height: 25px;
+  margin: 30px 0 25px;
+  font-weight: 700;
+}
+
 .card-subtitle_theme_light {
   font-weight: 700;
   font-size: 25px;
   color: #fff;
 }
 
+.statistics__card {
+  margin: 0 !important;
+}
+
 .statistics__card:hover .fas {
   border: 2px solid #fff;
   color: #f39c12;
 }
-
+/* 
 .icon-block {
   width: 32px;
-  height:32px;
-  
+  height: 32px;
+} */
+
+.service__row {
+  padding-bottom: 120px;
+}
+
+.far {
+  font-size: 32px;
+}
+
+.fa-star {
+  font-size: 32px;
+  padding: 35px;
+  border: 2px solid #f39c12;
+  border-radius: 50%;
+}
+
+.fa-vial {
+  color: #0d0d0d;
+  padding: 35px;
+}
+
+.fa-globe {
+  color: #0d0d0d;
+  padding: 35px;
+}
+
+.card-text_theme_grey {
+  line-height: 28px;
+  color: #737373;
 }
