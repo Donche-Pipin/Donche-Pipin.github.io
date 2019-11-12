@@ -4,6 +4,10 @@
   font-family: "Open Sans", sans-serif;
 }
 
+.card {
+  border: 0;
+}
+
 .header-wrapper {
   background-image: url(../images/headerfon.jpg);
   background-size: cover;
@@ -76,7 +80,7 @@
   margin-bottom: 290px;
 }
 
-.btn {
+.primary__btn {
   border-radius: 0;
   padding: 9px 30px;
   color: #fff;
@@ -150,6 +154,10 @@
   height: 2px;
   background-color: #e6e6e6;
   margin-top: 120px;
+}
+
+.service__horizontal-border {
+  margin-bottom: 120px;
 }
 
 .row__margin-lg {
@@ -231,12 +239,6 @@
   margin-bottom: 120px;
 }
 
-.card {
-  border: none;
-  border-top: 4px solid transparent;
-  background-color: transparent;
-}
-
 .card-body__horizontal-line {
   margin: 10px auto;
   height: 4px;
@@ -251,6 +253,12 @@
   width: 20px;
   background-color: #cccccc;
 }
+.horizontal-line_size_m {
+  width: 50px;
+  height: 2px;
+  background-color: #f39c12;
+  margin: 5px auto;
+}
 
 .card-img {
   max-width: 75%;
@@ -258,6 +266,10 @@
 
 .card-link {
   color: #999999;
+}
+
+.team__card {
+  border-top: 4px solid transparent;
 }
 
 .team__card:hover {
@@ -296,10 +308,7 @@
 }
 
 .card-title_theme_dark {
-  font-size: 20px;
   color: #0d0d0d;
-  line-height: 25px;
-  margin: 30px 0 25px;
   font-weight: 700;
 }
 
@@ -309,8 +318,15 @@
   color: #fff;
 }
 
+.service__card-title {
+  margin: 30px 0 25px;
+  line-height: 25px;
+  font-size: 20px;
+}
+
 .statistics__card {
   margin: 0 !important;
+  background-color: transparent;
 }
 
 .statistics__card:hover .fas {
@@ -351,4 +367,47 @@
 .card-text_theme_grey {
   line-height: 28px;
   color: #737373;
+}
+
+.service__card:hover .fa-globe,
+.service__card:hover .fa-vial,
+.service__card:hover .fa-star {
+  color: #fff;
+  background-color: #f39c12;
+}
+
+.service-card__title,
+.service__card-subtitle {
+  font-size: 22px;
+  line-height: 45px;
+  margin-bottom: 0;
+}
+
+.fa-money-bill-alt {
+  font-size: 32px;
+  padding: 46px;
+  border: 2px solid #f39c12;
+  border-radius: 50%;
+  transform: rotateZ(-30deg);
+}
+
+.card-header_theme_light {
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+}
+
+.list-group-item:nth-child(odd) {
+  background-color: #fafafa;
+}
+
+.service__card-body {
+  padding: 0;
+}
+
+.card-header_theme_light:nth-child(2) {
+  border: none;
+}
+
+.service__list-group-item {
+  border-radius: none;
 }
