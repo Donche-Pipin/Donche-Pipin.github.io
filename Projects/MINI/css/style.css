@@ -404,9 +404,9 @@
   padding: 0;
 }
 
-.card:hover .card-body {
+/* .card:hover .card-body {
   background-color: #000;
-}
+} */
 
 .card-header_theme_light:nth-child(2) {
   border: none;
