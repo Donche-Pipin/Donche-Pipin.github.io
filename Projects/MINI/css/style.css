@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,700&display=swap");
 
 * {
   font-family: "Open Sans", sans-serif;
@@ -156,6 +156,10 @@
   margin-top: 120px;
 }
 
+.service {
+  margin: 100px 0;
+}
+
 .service__horizontal-border {
   margin-bottom: 120px;
 }
@@ -221,6 +225,7 @@
 
 .quote {
   background: url(../images/aboutfon.jpg) no-repeat;
+  background-size: cover;
   padding: 255px 0;
 }
 
@@ -287,6 +292,7 @@
 
 .statistics {
   background: url(../images/blogfon.jpg) no-repeat;
+  background-size: cover;
   padding: 180px 0 240px;
 }
 
@@ -381,6 +387,7 @@
   font-size: 22px;
   line-height: 45px;
   margin-bottom: 0;
+  font-weight: 700;
 }
 
 .fa-money-bill-alt {
@@ -404,8 +411,23 @@
   padding: 0;
 }
 
-/* .card:hover .card-body {
+.service__card-body:hover .list-group {
+  background-color: #8f8f8f !important;
+}
+
+.service__card-body:hover .card-header {
+  background-color: #f39c12;
+}
+
+.service__card-body:hover .list-group-item {
+  opacity: 0.8;
+}
+
+.service__card-body:hover .horizontal-line_size_m {
   background-color: #000;
+}
+/* .service__card-body:hover .list-group-item {
+  background-color: #f39c12 !important;
 } */
 
 .card-header_theme_light:nth-child(2) {
@@ -414,4 +436,71 @@
 
 .service__list-group-item {
   border-radius: none;
+}
+
+.quotes__text_theme_light {
+  font-size: 22px;
+  line-height: 30px;
+  color: #fff;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote-bottom__horizontal-line {
+  margin-bottom: 30px;
+  height: 4px;
+  margin-top: 10px;
+}
+
+.portfolio {
+  padding: 100px 0 120px;
+}
+
+.nav__btn::after {
+  content: "\\\\";
+  padding-left: 15px;
+  color: #a6a6a6;
+}
+
+.nav-item:last-child .nav__btn:after {
+  content: "";
+  padding-left: 0;
+}
+
+.btn {
+  outline: none !important;
+  box-shadow: none !important;
+  font-weight: 600;
+}
+
+.btn_theme_sub {
+  color: #0d0d0d;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 25px;
+  padding-left: 0;
+}
+
+.nav-item:hover .btn {
+  color: #f39c12;
+}
+
+.fa-camera_theme_portfolio {
+  border: none;
+  border-radius: 0;
+  /* background-color: #c7c7c7; */
+  padding: 103px;
+  font-size: 72px;
+}
+
+.portfolio__card:nth-child(2n + 1) {
+  background-color: #c7c7c7;
+}
+
+.portfolio__card:nth-child(2n) {
+  background-color: #b7b7b7;
+}
+
+.card-body_theme_light {
+  background-color: #fff;
 }
