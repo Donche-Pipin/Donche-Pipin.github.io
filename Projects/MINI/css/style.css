@@ -466,7 +466,7 @@
   border-radius: none;
 }
 
-.quotes__text_theme_light {
+.quote__text_theme_light {
   font-size: 22px;
   line-height: 30px;
   color: #fff;
@@ -686,22 +686,34 @@
   margin-bottom: 0;
 }
 
+.map-wrapper::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 100px solid #fff;
+  border-right: 100vw solid transparent;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  z-index: 9999;
+}
+
+.map-wrapper::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid #fff;
+  border-left: 100vw solid transparent;
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  z-index: 9999;
+}
+
 .map {
   margin: 100px auto;
   /* position: relative; */
 }
-
-/* .map::before {
-  content: "";
-  width: 0;
-  height: 0;
-  border-top: 1970px solid rgb(117, 7, 7);
-  border-left: 100px solid transparent;
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 999;
-} */
 
 .footer {
   margin-bottom: 50px;
@@ -713,29 +725,97 @@
   font-weight: 600;
 }
 
-/* .footer__title:last-child::before {
-  content: "|"
+.footer__title-first::before {
+  content: "|";
   color: #a6a6a6;
-} */
+  margin-right: 5px;
+}
 
 .footer-link {
   font-size: 18px;
-  margin-left: 24px;
+  margin-right: 24px;
   color: #0d0d0d;
 }
 
 .footer-link:nth-child(7) {
-  margin-left: 0;
+  margin-right: 0;
 }
 
 .footer-link:hover {
   color: #f39c12;
 }
+/* .title__quote::before {
+  content: '"';
+  font-size: 100px;
+  color: #fff;
+  padding-bottom: 0;
+  transform: rotateX(90deg);
+}
+
+.title__quote::after {
+  content: '"';
+  font-size: 100px;
+  color: #fff;
+  padding-bottom: 0;
+  transform: rotateX(90deg);
+} */
+
+@media (max-width: 1200px) {
+  .row__margin-xs {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 992px) {
+  .row__margin-lg {
+    margin: 50px 0 30px;
+  }
+}
 
 @media (max-width: 768px) {
+  .primary-uptitle {
+    font-size: 2rem;
+  }
+
+  .primary-title {
+    font-size: 3rem;
+    line-height: 60px;
+  }
+
+  .primary-subtitle {
+    font-size: 1.8rem;
+  }
+
+  .about {
+    margin-top: 40px;
+  }
+
+  .fa-lightbulb {
+    margin-bottom: 15px;
+  }
+
+  .horizontal-border {
+    margin-top: 50px;
+  }
+
+  .row__margin-md {
+    margin: 50px 0 50px;
+  }
+
   .vertical-border {
-    width: 95%;
+    width: 100%;
     height: 3px;
     margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 576px) {
+  .title_size_lg {
+    font-size: 35px;
+    line-height: 50px;
+  }
+
+  .subtitle_theme_light {
+    font-size: 22px;
   }
 }
