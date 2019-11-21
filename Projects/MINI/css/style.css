@@ -6,6 +6,7 @@
 
 .card {
   border: 0;
+  border-radius: 0;
 }
 
 .header-wrapper {
@@ -544,6 +545,7 @@
 
 .portfolio__card:hover {
   background: url(../images/projectfoto.jpg) no-repeat;
+  background-position: center;
 }
 
 .portfolio__card:hover .fa-camera_theme_portfolio {
@@ -591,11 +593,19 @@
   padding-bottom: 40px;
 }
 
+.blog-card {
+  position: relative;
+}
+
+.img-card {
+  width: 100%;
+}
+
 .blog__title {
   display: inline-block;
   background-color: #fff;
   position: absolute;
-  top: 235px;
+  bottom: 0;
   right: 0;
   padding: 20px;
   margin: 0;
@@ -807,6 +817,30 @@
     height: 3px;
     margin-bottom: 5px;
   }
+
+  .statistics {
+    padding: 50px 0;
+  }
+
+  .service__row {
+    padding-bottom: 50px;
+  }
+
+  .service {
+    margin: 50px 0;
+  }
+
+  .service__horizontal-border {
+    margin-bottom: 50px;
+  }
+
+  .quote {
+    padding: 150px 0;
+  }
+
+  .portfolio {
+    padding: 50px 0;
+  }
 }
 
 @media (max-width: 576px) {
@@ -817,5 +851,9 @@
 
   .subtitle_theme_light {
     font-size: 22px;
+  }
+
+  .footer-link {
+    margin-right: 16px;
   }
 }
