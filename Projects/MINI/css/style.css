@@ -245,9 +245,9 @@
   height: 4px;
 }
 
-.team {
-  margin-bottom: 120px;
-}
+/* .team {
+  margin-bottom: 0px;
+} */
 
 .card-body__horizontal-line {
   margin: 10px auto;
@@ -589,10 +589,6 @@
   color: #808080;
 }
 
-.blog {
-  padding-bottom: 40px;
-}
-
 .blog-card {
   position: relative;
 }
@@ -780,6 +776,36 @@
   .row__margin-lg {
     margin: 50px 0 30px;
   }
+
+  .icon_size_lg {
+    padding: 35px;
+  }
+
+  .card-title_theme_light {
+    font-size: 35px;
+    margin-top: 10px;
+  }
+
+  .card-subtitle_theme_light {
+    font-size: 20px;
+  }
+
+  .blog {
+    padding-bottom: 0;
+  }
+
+  .blog__title {
+    padding: 0 20px;
+    font-size: 14px;
+  }
+
+  .blog__btn {
+    margin-bottom: 30px;
+  }
+
+  .clients {
+    padding: 210px 0 150px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -819,7 +845,7 @@
   }
 
   .statistics {
-    padding: 50px 0;
+    padding: 80px 0;
   }
 
   .service__row {
@@ -839,14 +865,22 @@
   }
 
   .portfolio {
-    padding: 50px 0;
+    padding: 70px 0 0 0;
+  }
+
+  .blog__title {
+    padding: 20px 20px;
+    font-size: 20px;
   }
 }
 
 @media (max-width: 576px) {
   .title_size_lg {
-    font-size: 35px;
-    line-height: 50px;
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .quotes {
+    font-size: 90px;
   }
 
   .subtitle_theme_light {
@@ -855,5 +889,11 @@
 
   .footer-link {
     margin-right: 16px;
+  }
+
+  .blog__title {
+    padding: 0 20px;
+    font-size: 14px;
+    text-transform: capitalize !important;
   }
 }
