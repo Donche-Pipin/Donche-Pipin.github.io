@@ -35,6 +35,9 @@
   padding-left: 30px;
 }
 
+.nav-link:last-child {
+  padding-right: 0 !important;
+}
 .nav-item:last-child .nav-link:after {
   content: "";
   padding-left: 0;
@@ -47,6 +50,44 @@
 .nav-link:hover {
   color: #1f2225;
 }
+
+.burger-menu {
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+
+.burger-menu__first-line {
+  width: 100%;
+  height: 4px;
+  background-color: #e74c3c;
+  top: 7px;
+  position: absolute;
+  /* transform: rotateZ(45deg) translate(10px, 10px); */
+}
+.burger-menu__second-line {
+  width: 100%;
+  height: 4px;
+  background-color: #e74c3c;
+  margin-top: 18px;
+  position: absolute;
+}
+/* .burger-menu__third-line {
+  width: 100%;
+  height: 4px;
+  background-color: #e74c3c;
+  position: absolute;
+  margin-top: 7px;
+} */
+.burger-menu__third-line {
+  width: 100%;
+  height: 4px;
+  background-color: #e74c3c;
+  top: 29px;
+  position: absolute;
+  /* transform: rotateZ(-45deg) translate(10px, -10px); */
+}
+
 
 .primary {
   color: #fff;
@@ -697,7 +738,7 @@
   width: 0;
   height: 0;
   border-top: 100px solid #fff;
-  border-right: 100vw solid transparent;
+  border-right: 98vw solid transparent;
   position: absolute;
   top: 100px;
   left: 0;
@@ -709,7 +750,7 @@
   width: 0;
   height: 0;
   border-bottom: 100px solid #fff;
-  border-left: 100vw solid transparent;
+  border-left: 98vw solid transparent;
   position: absolute;
   bottom: 100px;
   left: 0;
@@ -773,6 +814,10 @@
 }
 
 @media (max-width: 992px) {
+  .nav-link::after {
+    padding-left: 10px;
+  }
+
   .row__margin-lg {
     margin: 50px 0 30px;
   }
@@ -790,6 +835,10 @@
     font-size: 20px;
   }
 
+  .fa-camera_theme_portfolio {
+    padding: 50px;
+  }
+
   .blog {
     padding-bottom: 0;
   }
@@ -805,6 +854,14 @@
 
   .clients {
     padding: 210px 0 150px;
+  }
+
+  .map-wrapper::before {
+    border-right: 97vw solid transparent;
+  }
+
+  .map-wrapper::after {
+    border-left: 97vw solid transparent;
   }
 }
 
@@ -875,6 +932,10 @@
 }
 
 @media (max-width: 576px) {
+  .line {
+    width: 94%;
+  }
+
   .title_size_lg {
     font-size: 30px;
     line-height: 45px;
@@ -895,5 +956,13 @@
     padding: 0 20px;
     font-size: 14px;
     text-transform: capitalize !important;
+  }
+
+  .map-wrapper::before {
+    border-right: 94vw solid transparent;
+  }
+
+  .map-wrapper::after {
+    border-left: 94vw solid transparent;
   }
 }
