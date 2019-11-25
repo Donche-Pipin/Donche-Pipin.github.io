@@ -15,8 +15,8 @@ $(document).ready(function() {
   //     $("body").animate({ right: "0px" }, 200);
   //   });
   $(".burger-menu").click(function() {
-    $(".navbar__top").toggleClass("show__menu"), 900;
-    $("body").toggleClass("show__content"), 900;
+    $(".navbar__top").toggleClass("show__menu");
+    $("body").toggleClass("show__content");
     // $("body").removeClass("show__menu");
   });
 });
