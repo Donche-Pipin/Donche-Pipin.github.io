@@ -4,3 +4,33 @@
 //     $(".horizontal-line").css("background-color", "#cccccc");
 //   });
 // });
+
+$(document).ready(function() {
+  //   $(".burger-menu").click(function() {
+  //     $(".navbar__top").animate({ right: "0px" }, 200);
+  //     $("body").animate({ right: "200px" }, 200);
+  //   });
+  //   $(".burger-menu").click(function() {
+  //     $(".navbar__top").animate({ right: "-200px" }, 200);
+  //     $("body").animate({ right: "0px" }, 200);
+  //   });
+  $(".burger-menu").click(function() {
+    $(".navbar__top").toggleClass("show__menu"), 900;
+    $("body").toggleClass("show__content"), 900;
+    // $("body").removeClass("show__menu");
+  });
+});
+// $(document).ready(function() {
+//   $(".burger-menu").click(function() {
+//     $(".navbar").slideToggle(300, function() {
+//       if ($(this).css("display") === "none") {
+//         $(this).removeAttr("style");
+//       }
+//     });
+//   });
+// });
+// $(document).ready(function() {
+//   $(".burger-menu").click(function() {
+//     $(".nav").slideToggle();
+//   });
+// });
