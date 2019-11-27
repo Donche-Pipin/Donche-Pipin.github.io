@@ -17,6 +17,10 @@ $(document).ready(function() {
       $("body").animate({ right: "200px" }, 200);
     }
   });
+
+  $(".burger-menu").click(function() {
+    $(".burger-bimbo").toggleClass("pushed");
+  });
 });
 // $(".burger-menu.open").click(function() {
 //   $(this).removeClass("open");
