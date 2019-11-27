@@ -813,6 +813,10 @@ body {
   transform: rotateX(90deg);
 } */
 
+.background {
+  background-color: aqua;
+}
+
 @media (max-width: 1200px) {
   .row__margin-xs {
     margin-bottom: 25px;
