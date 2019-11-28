@@ -96,7 +96,7 @@ body {
 }
 
 .burger-menu .burger-menu__item:nth-of-type(1) {
-  transition: opacity 300ms;
+  transition: transform 600ms;
 }
 
 .burger-menu .burger-menu__item:nth-of-type(2) {
@@ -104,14 +104,14 @@ body {
 }
 
 .burger-menu .burger-menu__item:nth-of-type(3) {
-  transition: margin 800ms;
+  transition: transform 600ms;
 }
 
 .burger-menu .burger-menu__item {
   transition-duration: 1000ms;
 }
 
-.pushed .burger-menu__item:nth-of-type(1) {
+/* .pushed .burger-menu__item:nth-of-type(1) {
   opacity: 0;
   background-color: #f39c12;
 }
@@ -126,16 +126,31 @@ body {
   margin-left: 0.5em;
   transform: rotate(-45deg) translateX(17px);
   background-color: #f39c12;
-}
+} */
 
-.pushed .burger-menu:hover .burger-menu__item:nth-of-type(2) {
+.burger-menu:hover .burger-menu__item:nth-of-type(1) {
+  width: 60%;
   border-right-color: #e9b8b9;
   box-shadow: 0.4em 0 0.6em 0.1em #fff;
+  /* margin-right: 1.6em; */
+  transform: rotate(-33deg) translate(-5px, 3px);
+  background-color: #f39c12;
+}
+.burger-menu:hover .burger-menu__item:nth-of-type(2) {
+  border-right-color: #e9b8b9;
+  box-shadow: 0.4em 0 0.6em 0.1em #fff;
+  /* margin-left: 1.3em; */
+  /* transform: rotate(-133deg); */
+  background-color: #f39c12;
 }
 
-.pushed .burger-menu:hover .burger-menu__item:nth-of-type(3) {
+.burger-menu:hover .burger-menu__item:nth-of-type(3) {
+  width: 60%;
   border-right-color: #ddf1da;
   box-shadow: 0.4em 0 0.6em 0.1em rgba(251, 255, 0, 0.555);
+  /* margin-left: 1.5em; */
+  transform: rotate(-135deg) translateX(5px);
+  background-color: #f39c12;
 }
 
 .primary {
@@ -950,6 +965,20 @@ body {
     border-bottom: 1px solid #353535;
     width: 100%;
     text-align: right;
+  }
+
+  .nav:nth-child(1):before {
+    content: url(../images/icons/multiply.svg);
+    max-width: 30px;
+    max-height: 30px;
+    margin-bottom: 10px;
+    margin-left: 140px;
+  }
+
+  .nav:nth-child(1):hover:before {
+    transform: rotate(360deg);
+    transition: ease-in-out;
+    transition-duration: 1200ms;
   }
 
   .nav-link::after {

@@ -6,22 +6,35 @@
 // });
 
 $(document).ready(function() {
-  $(".burger-menu").click(function(e) {
-    if ($(this).hasClass("open")) {
-      $(this).removeClass("open");
-      $(".navbar__top").animate({ right: "-200px" }, 200);
-      $("body").animate({ right: "0px" }, 200);
-    } else {
-      $(this).addClass("open");
-      $(".navbar__top").animate({ right: "0px" }, 200);
-      $("body").animate({ right: "200px" }, 200);
-    }
+  // $(".burger-menu").click(function(e) {
+  //   if ($(this).hasClass("open")) {
+  //     $(this).removeClass("open");
+  //     $(".navbar__top").animate({ right: "-200px" }, 200);
+  //     $("body").animate({ right: "0px" }, 200);
+  //   } else {
+  //     $(this).addClass("open");
+  //     $(".navbar__top").animate({ right: "0px" }, 200);
+  //     $("body").animate({ right: "200px" }, 200);
+  //   }
+  // });
+
+  $(".burger-menu").click(function() {
+    $(".navbar__top").animate({ right: "0px" }, 200);
+    $("body").animate({ right: "200px" }, 200);
+    $(".burger-menu").css("display", "none");
+  });
+
+  $(".nav:first-child").click(function() {
+    $(".navbar__top").animate({ right: "-200px" }, 200);
+    $("body").animate({ right: "0px" }, 200);
+    $(".burger-menu").css("display", "block");
   });
 
   $(".burger-menu").click(function() {
     $(".burger-bimbo").toggleClass("pushed");
   });
 });
+
 // $(".burger-menu.open").click(function() {
 //   $(this).removeClass("open");
 //   $(".navbar__top").animate({ right: "-200px" }, 200);
