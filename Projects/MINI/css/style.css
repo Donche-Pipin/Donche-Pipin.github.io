@@ -953,21 +953,66 @@ body {
   }
   .nav__top {
     flex-direction: column;
-
     width: 100%;
     position: relative;
     top: 80px;
     padding-right: 15px;
   }
 
-  .nav-item {
+  .nav__bottom {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-item__top {
     line-height: 3rem;
     border-bottom: 1px solid #353535;
     width: 100%;
     text-align: right;
   }
 
-  .nav:nth-child(1):before {
+  .nav-item__bottom {
+    text-align: center;
+  }
+
+  .nav__btn::after {
+    content: "";
+  }
+
+  .nav-item__bottom:nth-of-type(1) {
+    text-align: left;
+  }
+
+  .nav-item__bottom:hover {
+    transform: rotateX(360deg);
+    transition-duration: 1000ms;
+    transition-timing-function: ease-in-out;
+  }
+
+  .nav-item__bottom:nth-of-type(2) {
+    text-align: left;
+    margin-left: 15%;
+  }
+
+  .nav-item__bottom:nth-of-type(3) {
+    text-align: left;
+    margin-left: 30%;
+  }
+
+  .nav-item__bottom:nth-of-type(4) {
+    margin-left: 15%;
+  }
+
+  .nav-item__bottom:nth-of-type(5) {
+    text-align: right;
+    margin-right: 20%;
+  }
+
+  .nav-item__bottom:nth-of-type(6) {
+    text-align: right;
+  }
+
+  .nav__top:nth-child(1):before {
     content: url(../images/icons/multiply.svg);
     max-width: 30px;
     max-height: 30px;
@@ -975,7 +1020,7 @@ body {
     margin-left: 140px;
   }
 
-  .nav:nth-child(1):hover:before {
+  .nav__top:nth-child(1):hover:before {
     transform: rotate(360deg);
     transition: ease-in-out;
     transition-duration: 1200ms;
