@@ -416,6 +416,13 @@ body {
   /* color: #fff; */
 }
 
+.far:hover,
+.fas:hover,
+.fab:hover {
+  transform: rotateY(360deg);
+  transition-duration: 1500ms;
+}
+
 .icon_size_lg {
   font-size: 32px;
   padding: 70px;
@@ -984,7 +991,7 @@ body {
   }
 
   .nav-item__bottom:hover {
-    transform: rotateX(360deg);
+    transform: scale(1.1, 1.1);
     transition-duration: 1000ms;
     transition-timing-function: ease-in-out;
   }
