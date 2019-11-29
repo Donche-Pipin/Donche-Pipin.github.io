@@ -75,13 +75,20 @@
   text-align: center;
 }
 
-.project__text {
+.project__subtitle {
   font-size: 30px;
   margin: 30px auto;
   width: 80%;
   height: auto;
   font-family: "Francois One", sans-serif;
   text-align: center;
+}
+
+.project__text {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Francois One", sans-serif;
+  margin-top: 10px;
 }
 
 @media screen and (max-width: 950px) {
