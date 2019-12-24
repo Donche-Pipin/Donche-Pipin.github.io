@@ -8505,7 +8505,9 @@ readers do not read off random characters that represent icons */
   list-style-type: none;
   text-decoration: none;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 a {
   color: #fff; }
@@ -8518,7 +8520,7 @@ a {
   .welcome-conainer .header {
     padding-top: 15px;
     width: 100%; }
-    @media (min-width: 576) {
+    @media (min-width: 576px) {
       .welcome-conainer .header {
         padding-left: 35px;
         padding-right: 35px; } }
@@ -8577,15 +8579,75 @@ a {
     color: #fff;
     margin-top: 245px;
     margin-bottom: 315px;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    text-align: center; }
+  .welcome-conainer .primary-image {
+    position: absolute;
+    visibility: hidden; }
+    @media (min-width: 576px) {
+      .welcome-conainer .primary-image {
+        visibility: visible;
+        left: 17%;
+        top: 18%; } }
+    @media (min-width: 768px) {
+      .welcome-conainer .primary-image {
+        left: 27%;
+        top: 14%; } }
+    @media (min-width: 992px) {
+      .welcome-conainer .primary-image {
+        left: 32%;
+        top: 14%; } }
+    @media (min-width: 1310px) {
+      .welcome-conainer .primary-image {
+        left: 37%;
+        top: 8%; } }
+
+.we-are {
+  padding-top: 70px; }
+  .we-are .up-title {
+    font: normal 600 13px "Open sans", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.65px;
+    color: #d4af37;
+    line-height: 40px; }
+  .we-are .title {
+    font: normal 600 44px "Open sans", sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 2.2px;
+    color: rgba(2, 23, 37, 0.7);
+    line-height: 50px; }
+  .we-are .text {
+    font: normal 400 18px "Open sans", sans-serif;
+    letter-spacing: 0.9px;
+    color: #021725;
+    line-height: 32px;
+    text-align: center;
+    margin: 50px 0; }
+  .we-are .btn {
+    background-color: #fff;
+    width: 240px;
+    margin: auto;
+    height: 55px;
+    border: 1px solid black;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
-  .welcome-conainer .primary-image {
-    position: absolute;
-    left: 37%;
-    top: 8%; }
+    .we-are .btn:hover {
+      -webkit-transition: -webkit-transform 0.3s ease-out 0.1s;
+      transition: -webkit-transform 0.3s ease-out 0.1s;
+      -o-transition: transform 0.3s ease-out 0.1s;
+      transition: transform 0.3s ease-out 0.1s;
+      transition: transform 0.3s ease-out 0.1s, -webkit-transform 0.3s ease-out 0.1s;
+      -webkit-transform: scale(1.1, 1.1);
+          -ms-transform: scale(1.1, 1.1);
+              transform: scale(1.1, 1.1);
+      background-color: #ffcc24; }
+    .we-are .btn .page-link {
+      font: normal 400 14px "Open sans", sans-serif;
+      letter-spacing: 0.7px;
+      line-height: 32px;
+      color: #021725;
+      margin: auto;
+      width: 100%;
+      text-align: center;
+      color: #000; }
