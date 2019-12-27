@@ -8572,14 +8572,6 @@ a {
         .welcome-conainer .header .menu-list__link {
           font-size: 16px;
           text-transform: uppercase; }
-  .welcome-conainer .primary-title {
-    font: normal 300 80px "Open sans", sans-serif;
-    text-transform: capitalize;
-    letter-spacing: 4px;
-    color: #fff;
-    margin-top: 245px;
-    margin-bottom: 315px;
-    text-align: center; }
   .welcome-conainer .primary-image {
     position: absolute;
     visibility: hidden; }
@@ -8601,28 +8593,23 @@ a {
         left: 37%;
         top: 8%; } }
 
-.we-are {
-  padding-top: 70px; }
-  .we-are .up-title {
-    font: normal 600 13px "Open sans", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 0.65px;
-    color: #d4af37;
-    line-height: 40px; }
-  .we-are .title {
-    font: normal 600 44px "Open sans", sans-serif;
-    text-transform: capitalize;
-    letter-spacing: 2.2px;
-    color: rgba(2, 23, 37, 0.7);
-    line-height: 50px; }
-  .we-are .text {
-    font: normal 400 18px "Open sans", sans-serif;
-    letter-spacing: 0.9px;
-    color: #021725;
-    line-height: 32px;
-    text-align: center;
-    margin: 50px 0; }
-  .we-are .btn {
+.primary-title {
+  font: normal 300 80px "Open sans", sans-serif;
+  text-transform: capitalize;
+  letter-spacing: 4px;
+  color: #fff;
+  margin-top: 245px;
+  margin-bottom: 315px;
+  text-align: center; }
+
+.primary-title_theme_dark {
+  color: #021725;
+  margin-top: 50px;
+  margin-bottom: 45px; }
+
+.about-us {
+  margin: 80px 0; }
+  .about-us .btn {
     background-color: #fff;
     width: 240px;
     margin: auto;
@@ -8632,7 +8619,7 @@ a {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
-    .we-are .btn:hover {
+    .about-us .btn:hover {
       -webkit-transition: -webkit-transform 0.3s ease-out 0.1s;
       transition: -webkit-transform 0.3s ease-out 0.1s;
       -o-transition: transform 0.3s ease-out 0.1s;
@@ -8642,7 +8629,7 @@ a {
           -ms-transform: scale(1.1, 1.1);
               transform: scale(1.1, 1.1);
       background-color: #ffcc24; }
-    .we-are .btn .page-link {
+    .about-us .btn .page-link {
       font: normal 400 14px "Open sans", sans-serif;
       letter-spacing: 0.7px;
       line-height: 32px;
@@ -8651,3 +8638,37 @@ a {
       width: 100%;
       text-align: center;
       color: #000; }
+
+.up-title {
+  font: normal 600 13px "Open sans", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.65px;
+  color: #d4af37;
+  line-height: 40px; }
+
+.title {
+  font: normal 600 44px "Open sans", sans-serif;
+  text-transform: capitalize;
+  letter-spacing: 2.2px;
+  color: rgba(2, 23, 37, 0.7);
+  line-height: 50px; }
+
+.title_mb_sm {
+  margin-bottom: 45px; }
+
+.title_mb_md {
+  margin-bottom: 55px; }
+
+.title_mb_lg {
+  margin-bottom: 80px; }
+
+.text {
+  font: normal 400 18px "Open sans", sans-serif;
+  letter-spacing: 0.9px;
+  color: #021725;
+  line-height: 32px;
+  text-align: center;
+  margin-bottom: 55px; }
+
+.works {
+  padding: 80px 0; }
