@@ -8609,35 +8609,36 @@ a {
 
 .about-us {
   margin: 80px 0; }
-  .about-us .btn {
-    background-color: #fff;
-    width: 240px;
+
+.btn {
+  background-color: #fff;
+  width: 240px;
+  margin: auto;
+  height: 55px;
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .btn:hover {
+    -webkit-transition: -webkit-transform 0.3s ease-out 0.1s;
+    transition: -webkit-transform 0.3s ease-out 0.1s;
+    -o-transition: transform 0.3s ease-out 0.1s;
+    transition: transform 0.3s ease-out 0.1s;
+    transition: transform 0.3s ease-out 0.1s, -webkit-transform 0.3s ease-out 0.1s;
+    -webkit-transform: scale(1.1, 1.1);
+        -ms-transform: scale(1.1, 1.1);
+            transform: scale(1.1, 1.1);
+    background-color: #ffcc24; }
+  .btn .page-link {
+    font: normal 400 14px "Open sans", sans-serif;
+    letter-spacing: 0.7px;
+    line-height: 32px;
+    color: #021725;
     margin: auto;
-    height: 55px;
-    border: 1px solid black;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex; }
-    .about-us .btn:hover {
-      -webkit-transition: -webkit-transform 0.3s ease-out 0.1s;
-      transition: -webkit-transform 0.3s ease-out 0.1s;
-      -o-transition: transform 0.3s ease-out 0.1s;
-      transition: transform 0.3s ease-out 0.1s;
-      transition: transform 0.3s ease-out 0.1s, -webkit-transform 0.3s ease-out 0.1s;
-      -webkit-transform: scale(1.1, 1.1);
-          -ms-transform: scale(1.1, 1.1);
-              transform: scale(1.1, 1.1);
-      background-color: #ffcc24; }
-    .about-us .btn .page-link {
-      font: normal 400 14px "Open sans", sans-serif;
-      letter-spacing: 0.7px;
-      line-height: 32px;
-      color: #021725;
-      margin: auto;
-      width: 100%;
-      text-align: center;
-      color: #000; }
+    width: 100%;
+    text-align: center;
+    color: #000; }
 
 .up-title {
   font: normal 600 13px "Open sans", sans-serif;
@@ -8668,7 +8669,92 @@ a {
   color: #021725;
   line-height: 32px;
   text-align: center;
-  margin-bottom: 55px; }
+  margin-bottom: 55px;
+  display: block; }
 
 .works {
   padding: 80px 0; }
+
+.img {
+  width: 100%; }
+
+.peoples {
+  margin-top: 80px;
+  margin-bottom: 80px; }
+  .peoples .card {
+    max-width: 246px;
+    background-color: #f9f9f9; }
+
+.title_style_card {
+  font: normal 600 21px "Open sans", sans-serif;
+  letter-spacing: 1.05px; }
+
+.text_style_card {
+  font: normal 600 13px "Open sans", sans-serif;
+  letter-spacing: 0.65px;
+  line-height: 23px;
+  text-align: left;
+  margin-top: 32px; }
+
+.post {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+
+.last-post {
+  max-width: 384px; }
+
+.last-post_theme_dark {
+  background-color: #f9f9f9;
+  padding-left: 40px !important;
+  padding-top: 40px !important; }
+
+.up-title_theme_dark {
+  color: #505d68; }
+
+.title_style_post {
+  font: normal 600 30px "Open sans", sans-serif;
+  letter-spacing: 0.9px;
+  line-height: 60px; }
+
+.text_style_post {
+  font: normal 400 16px "Open sans", sans-serif;
+  letter-spacing: 0.7px;
+  color: #505d68;
+  line-height: 25px;
+  text-align: left; }
+
+.btn_theme_post {
+  width: 127px;
+  height: 48px;
+  margin: 0; }
+
+.btn_mg_lg {
+  margin-top: 80px; }
+
+.contact-title {
+  font: normal 600 13px "Open sans", sans-serif;
+  letter-spacing: 0.65px;
+  text-transform: uppercase;
+  color: #505d68;
+  line-height: 60px;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 32px; }
+
+.contact-info {
+  font: normal 300 19px "Open sans", sans-serif;
+  letter-spacing: 0.57px;
+  color: #021725;
+  line-height: 34px;
+  text-align: center;
+  display: block; }
+  .contact-info:not(span):hover {
+    color: #d4af37;
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+            transform: scale(1.3);
+    -webkit-transition: -webkit-transform 0.3s ease-out 0.1s;
+    transition: -webkit-transform 0.3s ease-out 0.1s;
+    -o-transition: transform 0.3s ease-out 0.1s;
+    transition: transform 0.3s ease-out 0.1s;
+    transition: transform 0.3s ease-out 0.1s, -webkit-transform 0.3s ease-out 0.1s; }
