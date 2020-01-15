@@ -8762,6 +8762,9 @@ a {
 .btn_mg_lg {
   margin-top: 80px; }
 
+.contact {
+  margin: 80px 0; }
+
 .contact-bg-dark {
   background-color: #f9f9f9;
   max-width: 768px; }
@@ -8779,7 +8782,7 @@ a {
 .contact-info {
   font: normal 300 19px "Open sans", sans-serif;
   letter-spacing: 0.57px;
-  color: #021725;
+  color: #505d68;
   line-height: 34px;
   text-align: center;
   display: block;
@@ -8803,3 +8806,31 @@ a {
   background-position: center;
   max-width: 767px;
   height: 295px; }
+
+footer {
+  background-color: #eeeeee;
+  min-height: 90px; }
+
+.copyright {
+  max-width: 768px;
+  margin: 0 auto; }
+
+.copyright-name {
+  font: normal 300 16px "Open sans", sans-serif;
+  line-height: 34px;
+  color: #505d68;
+  text-align: center;
+  display: block;
+  margin-top: 28px; }
+
+.copyright-link {
+  font: normal 300 16px "Open sans", sans-serif;
+  letter-spacing: 0.57px;
+  color: #505d68;
+  line-height: 34px;
+  text-align: center;
+  display: block;
+  margin-top: 28px;
+  margin-bottom: 28px; }
+  .copyright-link:hover {
+    color: #d4af37; }
