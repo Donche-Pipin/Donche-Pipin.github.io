@@ -8541,7 +8541,22 @@ a {
         font-family: "Open Sans", sans serif;
         font-weight: 600;
         font-size: 16px;
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        -webkit-transition: -webkit-transform 0.5s ease-out;
+        transition: -webkit-transform 0.5s ease-out;
+        -o-transition: transform 0.5s ease-out;
+        transition: transform 0.5s ease-out;
+        transition: transform 0.5s ease-out, -webkit-transform 0.5s ease-out; }
+        .welcome-conainer .header .burger-menu .burger-menu__element:hover {
+          color: #d4af37;
+          -webkit-transition: -webkit-transform 0.5s ease-out;
+          transition: -webkit-transform 0.5s ease-out;
+          -o-transition: transform 0.5s ease-out;
+          transition: transform 0.5s ease-out;
+          transition: transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+          -webkit-transform: scale(1.2);
+              -ms-transform: scale(1.2);
+                  transform: scale(1.2); }
         .welcome-conainer .header .burger-menu .burger-menu__element .fa-bars {
           font-size: 16px;
           padding-left: 3px; }
@@ -8574,10 +8589,10 @@ a {
           text-transform: uppercase; }
   .welcome-conainer .primary-image {
     position: absolute;
-    visibility: hidden; }
+    display: none; }
     @media (min-width: 576px) {
       .welcome-conainer .primary-image {
-        visibility: visible;
+        display: block;
         left: 17%;
         top: 18%; } }
     @media (min-width: 768px) {
@@ -8601,6 +8616,18 @@ a {
   margin-top: 245px;
   margin-bottom: 315px;
   text-align: center; }
+  @media (min-width: 320px) {
+    .primary-title {
+      font-size: 60px; } }
+  @media (min-width: 576px) {
+    .primary-title {
+      font-size: 70px; } }
+  @media (min-width: 768px) {
+    .primary-title {
+      font-size: 75px; } }
+  @media (min-width: 992px) {
+    .primary-title {
+      font-size: 80px; } }
 
 .primary-title_theme_dark {
   color: #021725;
@@ -8619,7 +8646,10 @@ a {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-transition: 0.3s ease-out;
+  -o-transition: 0.3s ease-out;
+  transition: 0.3s ease-out; }
   .btn:hover {
     -webkit-transition: -webkit-transform 0.3s ease-out 0.1s;
     transition: -webkit-transform 0.3s ease-out 0.1s;
@@ -8652,7 +8682,8 @@ a {
   text-transform: capitalize;
   letter-spacing: 2.2px;
   color: rgba(2, 23, 37, 0.7);
-  line-height: 50px; }
+  line-height: 50px;
+  text-align: center; }
 
 .title_mb_sm {
   margin-bottom: 45px; }
@@ -8731,6 +8762,10 @@ a {
 .btn_mg_lg {
   margin-top: 80px; }
 
+.contact-bg-dark {
+  background-color: #f9f9f9;
+  max-width: 768px; }
+
 .contact-title {
   font: normal 600 13px "Open sans", sans-serif;
   letter-spacing: 0.65px;
@@ -8747,7 +8782,10 @@ a {
   color: #021725;
   line-height: 34px;
   text-align: center;
-  display: block; }
+  display: block;
+  -webkit-transition: 0.3s ease-out;
+  -o-transition: 0.3s ease-out;
+  transition: 0.3s ease-out; }
   .contact-info:not(span):hover {
     color: #d4af37;
     -webkit-transform: scale(1.3);
@@ -8758,3 +8796,10 @@ a {
     -o-transition: transform 0.3s ease-out 0.1s;
     transition: transform 0.3s ease-out 0.1s;
     transition: transform 0.3s ease-out 0.1s, -webkit-transform 0.3s ease-out 0.1s; }
+
+.map {
+  background-image: url(../img/map.jpg);
+  background-size: cover;
+  background-position: center;
+  max-width: 767px;
+  height: 295px; }
