@@ -8804,3 +8804,34 @@ readers do not read off random characters that represent icons */
   font-weight: 300;
   color: #fff;
   line-height: 23px; }
+
+.video {
+  background-color: #f6f6f6;
+  padding: 40px 0; }
+
+.differences {
+  background-color: #000;
+  padding: 40px 0; }
+
+.title_theme_light {
+  color: #fff; }
+
+.text_theme_light {
+  color: #fff; }
+
+.difference-item {
+  padding: 20px 15px; }
+
+.title_theme_difference {
+  text-align: left;
+  margin-top: 25px; }
+
+.text_theme_difference {
+  text-align: left; }
+
+.reviews {
+  padding: 50px 0; }
+
+.review-card {
+  background-color: #f6f6f6;
+  padding: 40px 45px; }
