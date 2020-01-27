@@ -8565,13 +8565,14 @@ readers do not read off random characters that represent icons */
   background: -webkit-gradient(linear, left top, right top, from(#fd712c), to(#f21780));
   background: -o-linear-gradient(left, #fd712c, #f21780);
   background: linear-gradient(to right, #fd712c, #f21780);
-  padding: 120px 0; }
+  padding: 120px 0;
+  min-height: 600px; }
 
 .primaty-image {
   position: absolute;
   top: 145px;
   right: 0;
-  background-image: url(../img/Shadow1-2.png);
+  background-image: url(../img/shadow1-2.png);
   background-size: cover;
   background-position: -60px 35px; }
 
@@ -8723,3 +8724,186 @@ readers do not read off random characters that represent icons */
 
 .screenshots-subtitle {
   text-align: center; }
+
+.slick-prev:before, .slick-next:before {
+  font-size: 40px;
+  border-radius: 20px;
+  padding-top: 2px !important;
+  background: -webkit-gradient(linear, left top, right top, from(#fd712c), to(#f21780));
+  background: -o-linear-gradient(left, #fd712c, #f21780);
+  background: linear-gradient(to right, #fd712c, #f21780); }
+
+.package {
+  margin: 120px 0; }
+
+.package-card {
+  background-color: #f7fafc;
+  padding: 20px 0;
+  margin-top: 80px; }
+
+.package-title {
+  font-family: "Dosis", sans-serif;
+  font-size: 36px;
+  line-height: 30px;
+  color: #222222;
+  font-weight: 600;
+  text-align: center; }
+
+.package-subtitle {
+  text-align: center; }
+
+.package-card-title {
+  font-size: 20px;
+  line-height: 24px;
+  color: #333333;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px; }
+
+.price {
+  height: 120px;
+  position: relative;
+  background-color: #fff; }
+  .price:before {
+    content: "";
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 127.5px solid #f7fafc;
+    border-right: 127.5px solid #f7fafc;
+    border-top: 40px solid transparent; }
+    @media (min-width: 320px) and (max-width: 567px) {
+      .price:before {
+        border-left: 0;
+        border-right: 0; } }
+    @media (min-width: 768px) and (max-width: 992px) {
+      .price:before {
+        border-left: 165px solid #f7fafc;
+        border-right: 165px solid #f7fafc; } }
+    @media (min-width: 992px) and (max-width: 1170px) {
+      .price:before {
+        border-left: 105px solid #f7fafc;
+        border-right: 105px solid #f7fafc; } }
+
+.price-number {
+  font-family: "Dosis", sans-serif;
+  display: block;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 48px;
+  color: #000;
+  font-weight: 500;
+  line-height: 48px; }
+
+.dollar {
+  vertical-align: text-top; }
+
+.package-options-list {
+  padding: 30px;
+  text-align: center; }
+
+.package-option-item {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #777777;
+  lene-height: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 5px 0; }
+
+.trial-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #777777;
+  color: #aaaaaa;
+  display: block;
+  text-align: center; }
+
+.trial-link {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #777777;
+  color: #333333;
+  display: block;
+  max-width: 140px;
+  margin: 5px auto;
+  text-align: center;
+  padding: 7px 0;
+  background-color: #ffffff;
+  border-radius: 20px;
+  font-weight: 500; }
+  .trial-link:hover {
+    background: -webkit-gradient(linear, left top, right top, from(#fd712c), to(#f21780));
+    background: -o-linear-gradient(left, #fd712c, #f21780);
+    background: linear-gradient(to right, #fd712c, #f21780);
+    color: #ffffff; }
+  .trial-link:hover ~ .price::after {
+    border-color: #fff; }
+
+.video {
+  margin-bottom: 120px; }
+
+.video-img {
+  position: absolute;
+  top: 41%;
+  left: 50%; }
+
+.customers {
+  margin-bottom: 120px; }
+
+.comments-carousel {
+  margin-top: 80px; }
+
+.custumers-title {
+  font-family: "Dosis", sans-serif;
+  font-size: 36px;
+  line-height: 30px;
+  color: #222222;
+  font-weight: 600;
+  text-align: center; }
+
+.customers-subtitle {
+  text-align: center; }
+
+.comment {
+  padding: 40px;
+  margin: 0 15px;
+  max-height: 312px; }
+  .comment:nth-child(even) {
+    background-color: #f7fafc; }
+  .comment:nth-child(odd) {
+    -webkit-box-shadow: 0px 10px 30px 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 10px 30px 0 rgba(0, 0, 0, 0.1); }
+
+.comment-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #777777; }
+
+.comment-img {
+  display: inline-block;
+  float: left;
+  margin-right: 20px;
+  margin-top: 25px;
+  max-width: 80px;
+  max-height: 80px; }
+
+.user-name {
+  font-family: "Dosis", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #222222;
+  font-weight: 600;
+  display: block;
+  margin-top: 40px; }
+
+.user-company {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #777777; }
