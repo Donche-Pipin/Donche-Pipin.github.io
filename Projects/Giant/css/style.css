@@ -8907,3 +8907,102 @@ readers do not read off random characters that represent icons */
   font-size: 14px;
   line-height: 24px;
   color: #777777; }
+
+.download {
+  background: -webkit-gradient(linear, left top, right top, from(#fd712c), to(#f21780));
+  background: -o-linear-gradient(left, #fd712c, #f21780);
+  background: linear-gradient(to right, #fd712c, #f21780);
+  padding: 120px 0; }
+
+.download-title {
+  font-family: "Dosis", sans-serif;
+  font-size: 36px;
+  line-height: 30px;
+  color: #222222;
+  font-weight: 600;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 80px; }
+
+.download-card {
+  background-color: #fff;
+  max-width: 350px; }
+  @media (min-width: 450px) and (max-width: 575px) {
+    .download-card {
+      margin-left: 10%; } }
+
+.download-link {
+  display: inline-block; }
+
+.img-container {
+  width: 115px;
+  height: 115px;
+  float: left;
+  background-color: #f7fafc;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 20px; }
+  @media (min-width: 320px) and (max-width: 400px) {
+    .img-container {
+      width: 60px;
+      margin-right: 10px; } }
+  @media (min-width: 768px) and (max-width: 1170px) {
+    .img-container {
+      width: 65px;
+      margin-right: 15px; } }
+
+.download-img {
+  max-width: 51px;
+  max-height: 51px;
+  display: block;
+  margin: auto; }
+
+.download-subtitle {
+  color: #777777;
+  margin: 5px 0;
+  display: inline-block; }
+
+.download-card-title {
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 30px;
+  line-height: 24px;
+  color: #222222;
+  font-weight: 600; }
+
+.footer {
+  background-color: #222222; }
+
+.social {
+  margin-top: 60px; }
+
+.social-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.social-item {
+  margin-left: 29px;
+  display: block; }
+  .social-item:nth-child(1) {
+    margin-left: 0; }
+
+.fab {
+  font-size: 18px;
+  color: #fff; }
+  .fab:hover {
+    color: #f31f79; }
+
+.copyright {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #777777;
+  font-style: normal;
+  font-weight: 300;
+  color: #ffffff;
+  margin-top: 30px;
+  margin-bottom: 60px; }
