@@ -1,19 +1,26 @@
-$(document).ready(function(){
-  $(".trial-link").hover(function(){
-    $(".price").css("background","linear-gradient(to right, #fd712c, #f21780)"),
-    $(".price-number").css("color", "#fff"),
-    $(".package-card").css("background-color", "#fff") 
-  },
-  function(){
-    $(".price").css("background","#fff"),
-    $(".price-number").css("color", "#000"),
-    $(".package-card").css("background-color", "#f7fafc")
-  })
-  $(".video").click(function(){
-    $(".video-img").toggle()
-  })
-})
+// $(document).ready(function(){
+//   $(".trial-link").hover(function(){
+//     $(".price").css("background","linear-gradient(to right, #fd712c, #f21780)"),
+//     $(".price-number").css("color", "#fff"),
+//     $(".package-card").css("background-color", "#fff") 
+//   },
+//   function(){
+//     $(".price").css("background","#fff"),
+//     $(".price-number").css("color", "#000"),
+//     $(".package-card").css("background-color", "#f7fafc")
+//   })
+//   $(".video").click(function(){
+//     $(".video-img").toggle()
+//   })
+// })
 
+$(document).ready(function(){
+  $("package-card").hover(function(){
+    $("price").addClass("white")},
+    function(){
+      $("price").removeClass("white")
+    });
+});
 
 $(document).ready(function(){
     $(".carousel").slick({

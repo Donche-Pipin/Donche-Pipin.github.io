@@ -8572,7 +8572,7 @@ readers do not read off random characters that represent icons */
   position: absolute;
   top: 145px;
   right: 0;
-  background-image: url(../img/shadow1-2.png);
+  background-image: url(../img/Shadow1-2.png);
   background-size: cover;
   background-position: -60px 35px; }
 
@@ -8736,11 +8736,6 @@ readers do not read off random characters that represent icons */
 .package {
   margin: 120px 0; }
 
-.package-card {
-  background-color: #f7fafc;
-  padding: 20px 0;
-  margin-top: 80px; }
-
 .package-title {
   font-family: "Dosis", sans-serif;
   font-size: 36px;
@@ -8782,10 +8777,24 @@ readers do not read off random characters that represent icons */
       .price:before {
         border-left: 165px solid #f7fafc;
         border-right: 165px solid #f7fafc; } }
-    @media (min-width: 992px) and (max-width: 1170px) {
+    @media (min-width: 992px) and (max-width: 1171px) {
       .price:before {
         border-left: 105px solid #f7fafc;
         border-right: 105px solid #f7fafc; } }
+
+.price .white:before {
+  border: solid #000; }
+
+.package-card {
+  background-color: #f7fafc;
+  padding: 20px 0;
+  margin-top: 80px; }
+  .package-card:hover {
+    background-color: #fff; }
+  .package-card:hover .price {
+    background: -webkit-gradient(linear, left top, right top, from(#fd712c), to(#f21780));
+    background: -o-linear-gradient(left, #fd712c, #f21780);
+    background: linear-gradient(to right, #fd712c, #f21780); }
 
 .price-number {
   font-family: "Dosis", sans-serif;
@@ -8841,8 +8850,6 @@ readers do not read off random characters that represent icons */
     background: -o-linear-gradient(left, #fd712c, #f21780);
     background: linear-gradient(to right, #fd712c, #f21780);
     color: #ffffff; }
-  .trial-link:hover ~ .price::after {
-    border-color: #fff; }
 
 .video {
   margin-bottom: 120px; }
@@ -8872,7 +8879,8 @@ readers do not read off random characters that represent icons */
 .comment {
   padding: 40px;
   margin: 0 15px;
-  max-height: 312px; }
+  max-height: 312px;
+  height: 100% !important; }
   .comment:nth-child(even) {
     background-color: #f7fafc; }
   .comment:nth-child(odd) {
@@ -8990,11 +8998,11 @@ readers do not read off random characters that represent icons */
   .social-item:nth-child(1) {
     margin-left: 0; }
 
-.fab {
-  font-size: 18px;
-  color: #fff; }
-  .fab:hover {
-    color: #f31f79; }
+.social-link {
+  display: block; }
+
+path:hover {
+  fill: #f31f79; }
 
 .copyright {
   font-family: "Roboto", sans-serif;
