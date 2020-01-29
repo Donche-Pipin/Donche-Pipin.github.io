@@ -9,24 +9,35 @@
 //     $(".price-number").css("color", "#000"),
 //     $(".package-card").css("background-color", "#f7fafc")
 //   })
-//   $(".video").click(function(){
-//     $(".video-img").toggle()
-//   })
-// })
+
+
+// $(document).ready(function(){
+//   $("package-card").hover(function(){
+//     $("price").addClass("white")},
+//     function(){
+//       $("price").removeClass("white")
+//     });
+// });
 
 $(document).ready(function(){
-  $("package-card").hover(function(){
-    $("price").addClass("white")},
-    function(){
-      $("price").removeClass("white")
-    });
+  $(".burger-menu").click(function(){
+    $(".menu-wrapper").toggle()
+  }),
+    $(".video").click(function(){
+    $(".video-img").toggle()
+  })
 });
 
 $(document).ready(function(){
-    $(".carousel").slick({
-        centerMode: true,
-  centerPadding: '160px',
+  $(".carousel").slick({
+  centerMode: true,
+  centerPadding: '100px',
+  prevArrow: '<i class="fas fa-arrow-left"></i>',
+  nextArrow: '<i class="fas fa-arrow-right"></i>',
+  // prevArrow: "<img src='img/arrow-right-solid.svg' class='prev' alt='1'>",
+  // nextArrow: "<img src='https://svgshare.com/i/6Gf.svg' class='next' alt='2'>",
   slidesToShow: 3,
+  variableWidth: true,
   arrows: true,
   responsive: [
     {
@@ -64,6 +75,8 @@ $('.comments-carousel').slick({
   arrows: true,
   infinite: true,
   slidesToShow: 3,
+  prevArrow: '<i class="fas fa-arrow-left"></i>',
+  nextArrow: '<i class="fas fa-arrow-right"></i>',
   slidesToScroll: 1,
   responsive: [
     {
