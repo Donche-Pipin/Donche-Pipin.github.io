@@ -8701,11 +8701,15 @@ readers do not read off random characters that represent icons */
   margin-top: 120px; }
 
 .reasons-img {
+  width: 100%;
+  max-width: 362px; }
+
+.reasons-shadow-img {
   position: absolute;
   top: -130px;
   left: 0; }
   @media (max-width: 992px) {
-    .reasons-img {
+    .reasons-shadow-img {
       display: none; } }
 
 .reasons-title {
@@ -8748,6 +8752,13 @@ readers do not read off random characters that represent icons */
 .slider-wrapper {
   margin-top: 80px; }
 
+.owl-item.active.center {
+  height: 300px; }
+
+.carousel-img {
+  height: 100%;
+  width: 100%; }
+
 .package {
   margin: 120px 0; }
 
@@ -8770,9 +8781,15 @@ readers do not read off random characters that represent icons */
 
 .fa-arrow-left {
   left: -90px; }
+  @media (min-width: 768px) and (max-width: 1300px) {
+    .fa-arrow-left {
+      left: -50px; } }
 
 .fa-arrow-right {
   right: -90px; }
+  @media (min-width: 768px) and (max-width: 1300px) {
+    .fa-arrow-right {
+      right: -50px; } }
 
 .package-title {
   font-family: "Dosis", sans-serif;

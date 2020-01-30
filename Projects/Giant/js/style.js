@@ -35,15 +35,27 @@ $('.carousel').slick({
   centerPadding: '10px',
   prevArrow: '<i class="fas fa-arrow-left"></i>',
   nextArrow: '<i class="fas fa-arrow-right"></i>',
-  slidesToShow: 3,
+  slidesToShow: 5,
+  slidesToScroll: 1,
   responsive: [
+    {
+      breakpoint: 992,
+      settings: {
+        arrows: true,
+        centerMode: true,
+        centerPadding: '0px',
+        slidesToShow: 3,
+        dots: false
+      }
+    },
     {
       breakpoint: 768,
       settings: {
         arrows: false,
         centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 3
+        centerPadding: '0px',
+        slidesToShow: 2,
+        dots: true
       }
     },
     {
@@ -51,8 +63,9 @@ $('.carousel').slick({
       settings: {
         arrows: false,
         centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 1
+        centerPadding: '0px',
+        slidesToShow: 1,
+        
       }
     }
   ]
@@ -93,37 +106,45 @@ $('.comments-carousel').slick({
   ]
 }); 
 });
-$(document).ready(function(){
-  $('.owl-carousel').owlCarousel({
-    loop:true,
-    dots: false,
-    margin:10,
-    responsiveClass:true,
-    responsive:{
-        0:{
-            items:1,
-            nav:true
-        },
-        600:{
-            items:3,
-            nav:false
-        },
-        1000:{
-            items:5,
-            nav:false,
-            loop:true
-        }
-    }
-})
-var owl = $('.slider-wrapper');
-owl.owlCarousel();
+// $(document).ready(function(){
+//   $('.owl-carousel').owlCarousel({
+//     loop:true,
+//     dots: false,
+//     margin:10,
+//     center: true,
+//     responsiveClass:true,
+//     responsive:{
+//         320:{
+//             items:1,
+//             nav:false,
+//             dots: true,
+//         },
+//         576:{
+//             items:2,
+//             nav:false,
+//         },
+//         768:{
+//             items:3,
+//             nav:false,
+//             loop:true,
+//         },
+//         992:{
+//           items:4,
+//           // nav:true,
+//           loop:true,
+//           dots: false,
+//       }
+//     }
+// })
+//   var owl = $('.slider-wrapper');
+//   owl.owlCarousel();
 
-$('.next-btn').click(function() {
-    owl.trigger('next.owl.carousel');
-})
+//   $('.next-btn').click(function() {
+//       owl.trigger('next.owl.carousel');
+//   })
 
-$('.prev-btn').click(function() {
-    
-    owl.trigger('prev.owl.carousel');
-})
-});
+//   $('.prev-btn').click(function() {
+      
+//       owl.trigger('prev.owl.carousel');
+//   })
+// });
