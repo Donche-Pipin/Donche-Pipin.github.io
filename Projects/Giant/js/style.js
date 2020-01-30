@@ -28,44 +28,30 @@ $(document).ready(function(){
   })
 });
 
+
 $(document).ready(function(){
-  $(".carousel").slick({
+$('.carousel').slick({
   centerMode: true,
-  centerPadding: '100px',
+  centerPadding: '10px',
   prevArrow: '<i class="fas fa-arrow-left"></i>',
   nextArrow: '<i class="fas fa-arrow-right"></i>',
-  // prevArrow: "<img src='img/arrow-right-solid.svg' class='prev' alt='1'>",
-  // nextArrow: "<img src='https://svgshare.com/i/6Gf.svg' class='next' alt='2'>",
   slidesToShow: 3,
-  variableWidth: true,
-  arrows: true,
   responsive: [
-    {
-        breakpoint: 992,
-        settings: {
-          arrows: true,
-          centerMode: true,
-          centerPadding: '80px',
-          slidesToShow: 2
-        }
-    },
     {
       breakpoint: 768,
       settings: {
         arrows: false,
-        dots: true,
         centerMode: true,
-        centerPadding: '0px',
-        slidesToShow: 2
+        centerPadding: '40px',
+        slidesToShow: 3
       }
     },
     {
       breakpoint: 480,
       settings: {
         arrows: false,
-        dots: true,
         centerMode: true,
-        centerPadding: '0',
+        centerPadding: '40px',
         slidesToShow: 1
       }
     }
@@ -106,4 +92,38 @@ $('.comments-carousel').slick({
     }
   ]
 }); 
+});
+$(document).ready(function(){
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    dots: false,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:5,
+            nav:false,
+            loop:true
+        }
+    }
+})
+var owl = $('.slider-wrapper');
+owl.owlCarousel();
+
+$('.next-btn').click(function() {
+    owl.trigger('next.owl.carousel');
+})
+
+$('.prev-btn').click(function() {
+    
+    owl.trigger('prev.owl.carousel');
+})
 });

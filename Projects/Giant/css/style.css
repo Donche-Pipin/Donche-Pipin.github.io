@@ -8745,26 +8745,8 @@ readers do not read off random characters that represent icons */
 .screenshots-subtitle {
   text-align: center; }
 
-.slick-center {
-  padding-top: 0;
-  -webkit-transform: scale(1.2);
-      -ms-transform: scale(1.2);
-          transform: scale(1.2); }
-
-.slick-prev:before, .slick-next:before {
-  font-size: 10px;
-  border-radius: 20px;
-  background: -webkit-gradient(linear, left top, right top, from(#fd712c), to(#f21780));
-  background: -o-linear-gradient(left, #fd712c, #f21780);
-  background: linear-gradient(to right, #fd712c, #f21780); }
-
-.prev, .next {
-  height: 60px !important;
-  width: 60px !important;
-  z-index: 1500 !important;
-  cursor: pointer !important; }
-  .prev:hover, .next:hover {
-    fill: #ffffaa; }
+.slider-wrapper {
+  margin-top: 80px; }
 
 .package {
   margin: 120px 0; }
@@ -8779,7 +8761,7 @@ readers do not read off random characters that represent icons */
   z-index: 1;
   cursor: pointer;
   font-size: 14px;
-  padding: 13px; }
+  padding: 12px 13px; }
   .fa-arrow-left:hover, .fa-arrow-right:hover {
     background: -webkit-gradient(linear, left top, right top, from(#fd712c), to(#f21780));
     background: -o-linear-gradient(left, #fd712c, #f21780);
