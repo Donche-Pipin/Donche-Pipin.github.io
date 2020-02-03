@@ -1,3 +1,23 @@
+// import { Carousel3d, Slide } from 'vue-carousel-3d';
+// export default {
+//   components: {
+//     Carousel3d,
+//     Slide
+//   }
+// };
+
+
+new Vue({
+  el: '.slider',
+  data: {
+    slides: 1,
+  },
+  components: {
+    'carousel-3d': Carousel3d.Carousel3d,
+    'slide': Carousel3d.Slide
+  }
+})
+
 // $(document).ready(function(){
 //   $(".trial-link").hover(function(){
 //     $(".price").css("background","linear-gradient(to right, #fd712c, #f21780)"),
@@ -32,6 +52,8 @@ $(document).ready(function(){
 $(document).ready(function(){
 $('.carousel').slick({
   centerMode: true,
+  // infinite: true,
+  // initialSlide: 0,
   centerPadding: '10px',
   prevArrow: '<i class="fas fa-arrow-left"></i>',
   nextArrow: '<i class="fas fa-arrow-right"></i>',
@@ -45,6 +67,7 @@ $('.carousel').slick({
         centerMode: true,
         centerPadding: '0px',
         slidesToShow: 3,
+        slidesToScroll: 1,
         dots: false
       }
     },
@@ -55,6 +78,7 @@ $('.carousel').slick({
         centerMode: true,
         centerPadding: '0px',
         slidesToShow: 2,
+        slidesToScroll: 1,
         dots: true
       }
     },
@@ -65,6 +89,7 @@ $('.carousel').slick({
         centerMode: true,
         centerPadding: '0px',
         slidesToShow: 1,
+        slidesToScroll: 1,
         
       }
     }

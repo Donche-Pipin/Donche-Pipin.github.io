@@ -8755,10 +8755,6 @@ readers do not read off random characters that represent icons */
 .owl-item.active.center {
   height: 300px; }
 
-.carousel-img {
-  height: 100%;
-  width: 100%; }
-
 .package {
   margin: 120px 0; }
 

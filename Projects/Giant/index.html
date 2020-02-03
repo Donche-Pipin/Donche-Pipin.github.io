@@ -219,28 +219,100 @@
                 </div> -->
                 <div class="row">
                     <div class="col">
-                        <div class="carousel">
-                            <div class="carousel-item">
-                                <img class="carousel-img" src="img/screenshot777.jpg" alt="screenshot-image">
+                        <div class="slider">
+                            <carousel-3d :perspective="0" :height="500" :space="200" :display="7" :controls-visible="true">
+                                <slide v-for="(slide, i) in slides" :index="0">
+                                    <img class="carousel-img" id="first" src="img/ss1.jpg" alt="screenshot-image">
+                                </slide>
+                                <slide v-for="(slide, i) in slides" :index="1">
+                                    <img class="carousel-img" id="first" src="img/ss2.jpg" alt="screenshot-image">
+                                </slide>
+                                <slide v-for="(slide, i) in slides" :index="2">
+                                    <img class="carousel-img" id="first" src="img/ss3.jpg" alt="screenshot-image">
+                                </slide>
+                                <slide v-for="(slide, i) in slides" :index="3">
+                                    <img class="carousel-img" id="first" src="img/ss4.jpg" alt="screenshot-image">
+                                </slide>
+                                <slide v-for="(slide, i) in slides" :index="4">
+                                    <img class="carousel-img" id="first" src="img/ss5.jpg" alt="screenshot-image">
+                                </slide>
+                                <slide v-for="(slide, i) in slides" :index="5">
+                                    <img class="carousel-img" id="first" src="img/ss6.jpg" alt="screenshot-image">
+                                </slide>
+                                <slide v-for="(slide, i) in slides" :index="6">
+                                    <img class="carousel-img" id="first" src="img/ss7.jpg" alt="screenshot-image">
+                                </slide>
+                            </carousel-3d>
+                            <!-- <div class="arrows">
+                                <div class="R">
+                                    <i class="fas fa-arrow-right"></i>
+                                </div>
+                                <div class="L">
+                                    <i class="fas fa-arrow-left"></i>
+                                </div>
+                            </div> -->
+
+
+                            <!-- <div class="carousel-item-wrapper" id="c">
+                                <div class="carousel-item">
+                                    <img class="carousel-img" id="first" src="img/ss1.jpg" alt="screenshot-image">
+                                </div>
+                            </div>
+                            <div class="carousel-item-wrapper id="l"">
+                                <div class="carousel-item">
+                                    <img class="carousel-img" id="first" src="img/ss2.jpg" alt="screenshot-image">
+                                </div>
+                            </div>
+                            <div class="carousel-item-wrapper" id="r">
+                                <div class="carousel-item">
+                                    <img class="carousel-img" id="first" src="img/ss3.jpg" alt="screenshot-image">
+                                </div>
+                            </div>
+                            <div class="carousel-item-wrapper" id="ll">
+                                <div class="carousel-item">
+                                    <img class="carousel-img" id="first" src="img/ss4.jpg" alt="screenshot-image">
+                                </div>
+                            </div>
+                            <div class="carousel-item-wrapper" id="rr">
+                                <div class="carousel-item">
+                                    <img class="carousel-img" id="first" src="img/ss5.jpg" alt="screenshot-image">
+                                </div>
+                            </div>
+                            <div class="carousel-item-wrapper" id="lll">
+                                <div class="carousel-item">
+                                    <img class="carousel-img" id="first" src="img/ss6.jpg" alt="screenshot-image">
+                                </div>
+                            </div>
+                            <div class="carousel-item-wrapper" id="rrr">
+                                <div class="carousel-item">
+                                    <img class="carousel-img" id="first" src="img/ss7.jpg" alt="screenshot-image">
+                                </div>
+                            </div> -->
+
+
+
+
+                            <!-- <div class="carousel-item">
+                                <img class="carousel-img" id="first" src="img/ss1.jpg" alt="screenshot-image">
                             </div>
                             <div class="carousel-item">
-                                <img class="carousel-img" src="img/screenshot777.jpg" alt="screenshot-image">
+                                <img class="carousel-img" id="second" src="img/ss1.jpg" alt="screenshot-image">
                             </div>
                             <div class="carousel-item">
-                                <img class="carousel-img" src="img/screenshot777.jpg" alt="screenshot-image">
+                                <img class="carousel-img" id="third" src="img/ss1.jpg" alt="screenshot-image">
                             </div>
                             <div class="carousel-item">
-                                <img class="carousel-img" src="img/screenshot777.jpg" alt="screenshot-image">
+                                <img class="carousel-img" id="fourth" src="img/ss1.jpg" alt="screenshot-image">
                             </div>
                             <div class="carousel-item">
-                                <img class="carousel-img" src="img/screenshot777.jpg" alt="screenshot-image">
+                                <img class="carousel-img" id="fifth" src="img/ss1.jpg" alt="screenshot-image">
                             </div>
                             <div class="carousel-item">
-                                <img class="carousel-img" src="img/screenshot777.jpg" alt="screenshot-image">
+                                <img class="carousel-img" id="sixth" src="img/ss1.jpg" alt="screenshot-image">
                             </div>
                             <div class="carousel-item">
-                                <img class="carousel-img" src="img/screenshot777.jpg" alt="screenshot-image">
-                            </div>
+                                <img class="carousel-img" id="seventh" src="img/ss1.jpg" alt="screenshot-image">
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -472,6 +544,9 @@
     <script src="js/libs.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- <script src="js/vue/vue.js"></script> -->
+    <script src="js/vue-carousel-3d.min.js"></script> 
     <script src="js/style.js"></script>      
 </body>
 </html>
