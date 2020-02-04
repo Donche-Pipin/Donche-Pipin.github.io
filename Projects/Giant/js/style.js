@@ -1,4 +1,9 @@
-// import { Carousel3d, Slide } from 'vue-carousel-3d';
+// import Vue from 'vue';
+// import Carousel3d from 'vue-carousel-3d';
+// Vue.use(Carousel3d);
+
+
+// import { Carousel3d, Slide} from 'vue-carousel-3d';
 // export default {
 //   components: {
 //     Carousel3d,
@@ -6,17 +11,18 @@
 //   }
 // };
 
-
 new Vue({
   el: '.slider',
   data: {
     slides: 1,
+    space: 1000444,
+    autoplay: true 
   },
   components: {
     'carousel-3d': Carousel3d.Carousel3d,
     'slide': Carousel3d.Slide
   }
-})
+});
 
 // $(document).ready(function(){
 //   $(".trial-link").hover(function(){

@@ -8749,6 +8749,22 @@ readers do not read off random characters that represent icons */
 .screenshots-subtitle {
   text-align: center; }
 
+.slider {
+  height: 650px;
+  padding-top: 48px; }
+
+.carousel-3d-container {
+  margin: 0 !important;
+  height: 590px !important;
+  padding-top: 40px; }
+
+.carousel-3d-slider {
+  height: 600px; }
+
+.slide-box {
+  -webkit-box-shadow: 0 5px 40px 3px #7a767680 !important;
+          box-shadow: 0 5px 40px 3px #7a767680 !important; }
+
 .slider-wrapper {
   margin-top: 80px; }
 
@@ -8758,7 +8774,21 @@ readers do not read off random characters that represent icons */
 .package {
   margin: 120px 0; }
 
-.fa-arrow-left, .fa-arrow-right {
+.R {
+  right: 0px;
+  position: absolute;
+  top: -webkit-calc(50% - 11px);
+  top: calc(50% - 11px); }
+
+.L {
+  position: absolute;
+  top: -webkit-calc(50% - 11px);
+  top: calc(50% - 11px); }
+
+.R .fa-arrow-right {
+  left: 16px; }
+
+.fa-arrow-left, .fa-arrow-right, .L {
   position: absolute;
   top: -webkit-calc(50% - 11px);
   top: calc(50% - 11px);
@@ -8769,22 +8799,22 @@ readers do not read off random characters that represent icons */
   cursor: pointer;
   font-size: 14px;
   padding: 12px 13px; }
-  .fa-arrow-left:hover, .fa-arrow-right:hover {
+  .fa-arrow-left:hover, .fa-arrow-right:hover, .L:hover {
     background: -webkit-gradient(linear, left top, right top, from(#fd712c), to(#f21780));
     background: -o-linear-gradient(left, #fd712c, #f21780);
     background: linear-gradient(to right, #fd712c, #f21780);
     color: #fff; }
 
-.fa-arrow-left {
+.comments-carousel .fa-arrow-left {
   left: -90px; }
   @media (min-width: 768px) and (max-width: 1300px) {
-    .fa-arrow-left {
+    .comments-carousel .fa-arrow-left {
       left: -50px; } }
 
-.fa-arrow-right {
+.comments-carousel .fa-arrow-right {
   right: -90px; }
   @media (min-width: 768px) and (max-width: 1300px) {
-    .fa-arrow-right {
+    .comments-carousel .fa-arrow-right {
       right: -50px; } }
 
 .package-title {

@@ -220,26 +220,26 @@
                 <div class="row">
                     <div class="col">
                         <div class="slider">
-                            <carousel-3d :perspective="0" :height="500" :space="200" :display="7" :controls-visible="true">
-                                <slide v-for="(slide, i) in slides" :index="0">
+                            <carousel-3d :perspective="0" :border="0" :height="500" :space="200" :display="7" :controls-visible="true">
+                                <slide class="slide-box" v-for="(slide, i) in slides" :index="0">
                                     <img class="carousel-img" id="first" src="img/ss1.jpg" alt="screenshot-image">
                                 </slide>
-                                <slide v-for="(slide, i) in slides" :index="1">
+                                <slide class="slide-box" v-for="(slide, i) in slides" :index="1">
                                     <img class="carousel-img" id="first" src="img/ss2.jpg" alt="screenshot-image">
                                 </slide>
-                                <slide v-for="(slide, i) in slides" :index="2">
+                                <slide class="slide-box" v-for="(slide, i) in slides" :index="2">
                                     <img class="carousel-img" id="first" src="img/ss3.jpg" alt="screenshot-image">
                                 </slide>
-                                <slide v-for="(slide, i) in slides" :index="3">
+                                <slide class="slide-box" v-for="(slide, i) in slides" :index="3">
                                     <img class="carousel-img" id="first" src="img/ss4.jpg" alt="screenshot-image">
                                 </slide>
-                                <slide v-for="(slide, i) in slides" :index="4">
+                                <slide class="slide-box" v-for="(slide, i) in slides" :index="4">
                                     <img class="carousel-img" id="first" src="img/ss5.jpg" alt="screenshot-image">
                                 </slide>
-                                <slide v-for="(slide, i) in slides" :index="5">
+                                <slide class="slide-box" v-for="(slide, i) in slides" :index="5">
                                     <img class="carousel-img" id="first" src="img/ss6.jpg" alt="screenshot-image">
                                 </slide>
-                                <slide v-for="(slide, i) in slides" :index="6">
+                                <slide class="slide-box" v-for="(slide, i) in slides" :index="6">
                                     <img class="carousel-img" id="first" src="img/ss7.jpg" alt="screenshot-image">
                                 </slide>
                             </carousel-3d>
@@ -545,7 +545,7 @@
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <!-- <script src="js/vue/vue.js"></script> -->
+    <script src="js/vue.js"></script>
     <script src="js/vue-carousel-3d.min.js"></script> 
     <script src="js/style.js"></script>      
 </body>
