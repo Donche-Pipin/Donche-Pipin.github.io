@@ -56,8 +56,8 @@
                                 <li class="primary-item">Unlimited colors: banner with images, slider or video</li>
                                 <li class="primary-item">Fully Responsive and powered by HTML5 and CSS3</li>
                                 <li class="primary-item">Very easy to customize : set up in minutes</li>
-                                <a href="#" class="link primary-link">Start Exploring Us</a>
                             </ul>
+                            <a href="#" class="link primary-link">Start Exploring Us</a>
                         </div>
                     </div>
                 </div>
@@ -220,7 +220,7 @@
                 <div class="row">
                     <div class="col">
                         <div class="slider">
-                            <carousel-3d :perspective="0" :border="0" :height="500" :space="200" :display="7" :controls-visible="true">
+                            <carousel-3d :perspective="0" :display="7" :border="0" :height="500" :space="200" :controls-visible="true">
                                 <slide class="slide-box" v-for="(slide, i) in slides" :index="0">
                                     <img class="carousel-img" id="first" src="img/ss1.jpg" alt="screenshot-image">
                                 </slide>
@@ -243,6 +243,7 @@
                                     <img class="carousel-img" id="first" src="img/ss7.jpg" alt="screenshot-image">
                                 </slide>
                             </carousel-3d>
+
                             <!-- <div class="arrows">
                                 <div class="R">
                                     <i class="fas fa-arrow-right"></i>
@@ -401,14 +402,14 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="video">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col">
-                        <!-- <iframe width="100%" height="400" src="https://www.youtube.com/embed/AkZL2Nm8pKw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-                        <video controls width="100%" height="400px" src="video/23.01.2020 Вулверхэмптон — Ливерпуль. Обзор матча.mp4" type="video/mp4" poster="img/video-fon.jpg"></video>
-                        <img class="img video-img" src="img/Play Icon.png" alt="play-icon">
+            <div class="video">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col">
+                            <!-- <iframe width="100%" height="400" src="https://www.youtube.com/embed/AkZL2Nm8pKw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                            <video style="width: 100%; height: 400px" src="video/23.01.2020_Вулверхэмптон—Ливерпуль.Обзор_матча" poster="img/video-fon.jpg" controls></video>
+                            <img class="img video-img" src="img/Play-Icon.png" alt="play-icon">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -542,11 +543,11 @@
         </div>
     </footer>
     <script src="js/libs.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="slick/slick.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="js/vue.js"></script>
     <script src="js/vue-carousel-3d.min.js"></script> 
-    <script src="js/style.js"></script>      
+    <script src="js/style.js" type="module"></script>      
 </body>
 </html>

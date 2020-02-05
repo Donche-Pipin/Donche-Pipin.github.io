@@ -8953,8 +8953,7 @@ readers do not read off random characters that represent icons */
     color: #ffffff; }
 
 .video {
-  margin-bottom: 120px;
-  outline: none; }
+  margin-top: 70px; }
 
 .video-img {
   position: absolute;

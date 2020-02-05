@@ -1,15 +1,15 @@
-// import Vue from '/vue.js';
-// import Carousel3d from '/vue-carousel-3d.js';
+// import Vue from 'vue';
+// import Carousel3d from 'vue-carousel-3d';
 // Vue.use(Carousel3d);
 
 
-// import { Carousel3d, Slide} from '/vue-carousel-3d.js';
-// export default {
-//   components: {
-//     Carousel3d,
-//     Slide
-//   }
-// };
+import { Carousel3d, Slide} from '/vue-carousel-3d.js';
+export default {
+  components: {
+    Carousel3d,
+    Slide
+  }
+};
 
 new Vue({
   el: '.slider',
