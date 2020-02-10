@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+.navbar-001 {
+    background-color: #c4cdd6;
+}
+
+.navbar-001 .welcome-background {
+    max-height: 675px !important;
+    height: 100vh !important;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #c4cdd6;
+    z-index: 50;
+
+}
+
+.navbar-001 .btn {
+    text-transform: uppercase;
+}
+
+.navbar-001 .btn-warning{
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+.navbar-001 #main-button {
+    max-width: 250px !important;
+    max-height: 50px;
+    width: 100%;
+    border-radius: 3px;
+    background-color: #ff891e;
+    margin: auto;
+    border: 1px solid #ff891e;
+}
+
+.navbar-001 .carousel {
+    position: absolute;
+}
+
+.navbar-001 .carousel-inner {
+    overflow: visible;
+}
+.carousel-item {
+    width: 100vw;
+
+    height: 100vh;
+    max-height: 675px;
+}
+
+.navbar-001 #s1 {
+    
+    background: url("../img/slider_1.jpg") top center;
+    background-repeat: no-repeat;
+    
+}
+.navbar-001 #s2 {
+    background: url("../img/slider_2.jpg") top center;
+    background-repeat: no-repeat;
+    
+    
+}
+.navbar-001 #s3 {
+    background: url("../img/slider_3.jpg") top center;
+    background-repeat: no-repeat;
+  
+}
+.navbar-001 #s4 {
+    background: url("../img/slider_4.jpg") top center;
+    background-repeat: no-repeat;
+}
+
+.navbar-001 .carousel-indicators {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.navbar-001 .carousel-indicators li{
+    max-width: 274px; 
+    max-height: 67px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-001 .carousel-indicators li img{
+    float: left;
+    margin: 6px
+}
+
+.navbar-001 .carousel-indicators li p {
+    font-size: 11px;
+    text-shadow: 0px 1px 1px rgba(2, 2, 2, 0.2);
+    color: #d9d4d1;
+    text-indent: 0;
+    max-width: 200px;
+    display: flex;
+    margin-bottom: 0;
+    margin-top: 12px
+    
+}
+
+.navbar-001 .carousel-indicators li h2 {
+    font-size: 11px;
+    text-indent: 0;
+    max-width: 200px;
+    color: #fff;
+    display: flex;
+}
+
+.navbar-001 .carousel-caption{
+    max-width: 565px;
+    width: 100%;
+    left: 45%;
+    top: 30%;
+    text-align: left;
+    color: #000;
+}
+
+.navbar-001 .carousel-caption h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 42px;
+    width: 100%
+
+}
+
+.navbar-001 .carousel-caption p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 26px;
+    width: 100%
+}
+
+.navbar-001 .carousel-caption button {
+    border-radius: 3px;
+    width: 155px;
+    height: 45px;
+    display: inline-block;
+}
+
+.navbar-001 .carousel-caption .btn-warning{
+    background-color: #ff891e;
+    margin-right: 20px;
+    float: left;
+}
+
+
+.navbar-001 .carousel-control-next span, .navbar-001 .carousel-control-prev span {
+    padding: 34px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-001 .carousel-control-prev-icon {
+    background: url(../img/icon/chevron-left-solid.svg) no-repeat 50% / 25% 25%;
+}
+
+.navbar-001 .carousel-control-next-icon {
+    background: url(../img/icon/chevron-right-solid.svg) no-repeat 50% / 25% 25%;
+}
+
+.navbar-001 .carousel-control-prev {
+    justify-content: left;
+    left: 12px;
+    width: 7%;
+}
+
+.navbar-001 .carousel-control-next {
+    justify-content: flex-end;
+    right: 12px;
+    width: 7%;
+}
+
+@media (min-width: 768px) and (max-width: 1200px){
+    .navbar-001 .carousel-caption{
+        max-width: 470px; 
+    }
+    .navbar-001 .carousel-caption h1 {
+        font-size: 35px;
+    }
+    .navbar-001 .carousel-caption p {
+        font-size: 21px;
+    }
+    .navbar-001 #s1, .navbar-001 #s2, .navbar-001 #s3, .navbar-001 #s4 {
+        background-position: 44% 0 ;
+    }
+    .navbar-001 .carousel-indicators li {
+        max-width: 225px;
+        max-height: 56px;
+        
+    }
+    .navbar-001 .carousel-indicators li p {
+        font-size: 9px;
+        margin-top: 7px;
+    }
+    .navbar-001 .carousel-indicators li h2 {
+        font-size: 10px;
+    }
+    .navbar-001 .carousel-indicators li img {
+        max-width: 40px;
+        margin: 5px;
+    }
+}
+@media (min-width: 900px) and (max-width: 1050px ) {
+    .navbar-001 .carousel-caption{
+        max-width: 400px; 
+    }
+}
+
+@media (min-width: 768px) and (max-width: 900px ) {
+    .navbar-001 .carousel-caption{
+        max-width: 350px; 
+    }
+    .navbar-001 .carousel-indicators {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 768px ) {
+    .navbar-001 .carousel-caption{
+        max-width: 340px;
+        text-align: center;
+        left: 29%
+    }
+    .navbar-001 .carousel-caption h1 {
+        font-size: 25px;
+    }
+    .navbar-001 .carousel-caption p {
+        font-size: 18px;
+    }
+
+    .navbar-001 #s1, .navbar-001 #s2, .navbar-001 #s3, .navbar-001 #s4 {
+        background-position: 25% 0 ;
+    }
+    .navbar-001 .carousel-caption .btn-warning {
+        float: none
+    }
+    .navbar-001 .carousel-indicators li {
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background-color: transparent;
+        border: 2px solid #282828;
+    }
+
+    .navbar-001 .carousel-indicators .active {
+        background-color: #282828;
+    }
+
+    .navbar-001 .carousel-indicators li p {
+        display: none;
+    }
+    .navbar-001 .carousel-indicators li h2 {
+        display: none;
+    }
+    .navbar-001 .carousel-indicators li img {
+        display: none !important;
+    }
+    .navbar-001 #s1, .navbar-001 #s2, .navbar-001 #s3, .navbar-001 #s4 {
+        background-color: rgba(255, 255, 255, 0.7);
+        background-blend-mode: color; 
+    }
+   
+}
+
+@media (min-width: 530px) and (max-width: 650px ) {
+    .navbar-001 .carousel-caption{
+    left: 20%;
+    }
+}
+
+@media (min-width: 470px) and (max-width: 529px ) {
+    .navbar-001 .carousel-caption{
+    left: 15%;
+    }
+}
+@media (min-width: 400px) and (max-width: 470px ) {
+    .navbar-001 .carousel-caption{
+    left: 10%;
+    }
+}
+
+@media (min-width: 380px) and (max-width: 400px ) {
+    .navbar-001 .carousel-caption{
+    left: 5%;
+    }
+}
+@media (min-width: 360px) and (max-width: 380px ) {
+    .navbar-001 .carousel-caption{
+    left: 3%;
+    }
+}
