@@ -8531,14 +8531,20 @@ a {
 
 .logo {
   padding-top: 36px;
-  padding-left: 28px; }
+  padding-left: 10px; }
+  @media (min-width: 400px) {
+    .logo {
+      padding-left: 28px; } }
   @media (min-width: 768px) {
     .logo {
       padding-left: 0; } }
 
 .burger-menu {
-  padding: 45px 28px;
+  padding: 45px 15px;
   background-color: #000; }
+  @media (min-width: 450px) {
+    .burger-menu {
+      padding: 45px 20px; } }
   @media (min-width: 768px) {
     .burger-menu {
       background-color: transparent;
@@ -8590,7 +8596,20 @@ nav {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 100%; }
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 10px; }
+    @media (min-width: 576px) {
+      .menu-list {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row; } }
     .menu-list__item {
       display: -webkit-box;
       display: -webkit-flex;
@@ -8602,7 +8621,8 @@ nav {
       -webkit-box-pack: center;
       -webkit-justify-content: center;
           -ms-flex-pack: center;
-              justify-content: center; }
+              justify-content: center;
+      padding-bottom: 10px; }
     .menu-list__link {
       font-size: 16px;
       text-transform: uppercase; }
@@ -8632,6 +8652,23 @@ nav {
     .primary-image {
       left: 37%;
       top: 8%; } }
+
+.fa-chevron-down {
+  font-size: 25px;
+  padding: 10px 12px;
+  color: #fff;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  top: 60%;
+  left: 42%; }
+  @media (min-width: 320px) and (max-width: 426px) {
+    .fa-chevron-down {
+      top: 65%;
+      left: 40%; } }
+  @media (min-width: 576px) {
+    .fa-chevron-down {
+      display: none; } }
 
 .primary-title {
   font: normal 300 80px "Open sans", sans-serif;
