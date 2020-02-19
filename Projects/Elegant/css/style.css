@@ -9106,9 +9106,9 @@ aside {
     -o-transition: transform 0.5s ease-out;
     transition: transform 0.5s ease-out;
     transition: transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
-    -webkit-transform: scale(1.2);
-        -ms-transform: scale(1.2);
-            transform: scale(1.2); }
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1); }
 
 .categories, .projects {
   margin-top: 55px; }
@@ -9276,3 +9276,78 @@ aside {
   -o-transition: transform 0.5s ease-out;
   transition: transform 0.5s ease-out;
   transition: transform 0.5s ease-out, -webkit-transform 0.5s ease-out; }
+
+.contact-conainer {
+  background: url("../img/contact-fon.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 400px; }
+  @media (max-width: 768px) {
+    .contact-conainer {
+      background: none;
+      height: 100%; } }
+
+.contact-us-title {
+  margin-bottom: 85px;
+  font-weight: 700; }
+
+.address-wrapper {
+  background-color: #d3b000;
+  padding: 32px;
+  height: 100%;
+  margin-right: 6px;
+  max-height: 300px; }
+  @media (max-width: 768px) {
+    .address-wrapper {
+      width: 100%; } }
+
+.horizontal-line {
+  width: 31px;
+  height: 3px;
+  background-color: #ffffff;
+  margin-bottom: 45px; }
+
+.address {
+  font: normal 400 25px "Open sans", sans-serif;
+  line-height: 32px;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+  text-align: left; }
+
+.contact-img {
+  width: 100%;
+  max-height: 300px;
+  display: block; }
+
+.contact-text-wrapper {
+  background-color: #f9f9f9;
+  padding: 47px;
+  max-height: 300px; }
+  @media (min-width: 992px) and (max-width: 1310px) {
+    .contact-text-wrapper {
+      max-height: 340px; } }
+  @media (min-width: 768px) and (max-width: 992px) {
+    .contact-text-wrapper {
+      max-height: 370px; } }
+  @media (max-width: 768px) {
+    .contact-text-wrapper {
+      max-height: 100%; } }
+
+.contact-text {
+  font: normal 400 20px "Open sans", sans-serif;
+  line-height: 32px;
+  color: #323d43;
+  margin-bottom: 0;
+  text-align: left; }
+
+.phone-wrapper {
+  background-color: #212121;
+  height: 100%;
+  padding: 32px; }
+
+.phone {
+  font: normal 400 25px "Open sans", sans-serif;
+  line-height: 32px;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+  display: block; }
