@@ -1,5 +1,5 @@
 /* Magnific Popup CSS */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,700,800&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Cardo&display=swap");
 .mfp-bg {
   top: 0;
@@ -8626,7 +8626,12 @@ nav {
       padding-bottom: 10px; }
     .menu-list__link {
       font-size: 16px;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      -webkit-transition: -webkit-transform 0.5s ease-out;
+      transition: -webkit-transform 0.5s ease-out;
+      -o-transition: transform 0.5s ease-out;
+      transition: transform 0.5s ease-out;
+      transition: transform 0.5s ease-out, -webkit-transform 0.5s ease-out; }
       .menu-list__link:hover {
         color: #d4af37;
         -webkit-transform: scale(1.2);
@@ -9043,7 +9048,7 @@ footer {
   text-align: left; }
 
 .post-text {
-  font: normal 400 16px "Cardo", sans-serif;
+  font: normal 400 16px "Cardo", serif;
   line-height: 25px;
   letter-spacing: 0.08px;
   color: #021725;
@@ -9165,3 +9170,109 @@ aside {
   background-size: cover;
   background-position: center;
   min-height: 700px; }
+
+.project-wrapper {
+  background-color: #f9f9f9; }
+
+.project-post {
+  margin-top: 85px;
+  margin-left: 65px;
+  max-width: 665px;
+  margin-bottom: 45px; }
+  @media (max-width: 768px) {
+    .project-post {
+      margin-bottom: 0;
+      margin-left: 0; } }
+
+@media (max-width: 768px) {
+  .project-wrapper aside {
+    padding-top: 0; } }
+
+@media (max-width: 768px) {
+  .project-wrapper .aside-link {
+    display: block; } }
+
+.project-wrapper .aside-link:hover {
+  -webkit-transition: -webkit-transform 0.5s ease-out;
+  transition: -webkit-transform 0.5s ease-out;
+  -o-transition: transform 0.5s ease-out;
+  transition: transform 0.5s ease-out;
+  transition: transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1); }
+
+.aside-list_style_project {
+  margin-top: 0; }
+
+.project-title {
+  line-height: 32px;
+  letter-spacing: 2.25px;
+  color: #000000;
+  font-weight: 700;
+  margin-bottom: 125px;
+  text-align: left; }
+
+.project-text {
+  font: normal 700 20px "Cardo", serif;
+  letter-spacing: 1px;
+  line-height: 32px;
+  text-align: left;
+  margin-bottom: 100px; }
+
+.project-img {
+  margin-bottom: 20px;
+  width: 100%; }
+
+.social-group {
+  margin-top: 100px;
+  margin-bottom: 70px; }
+
+.social-link {
+  max-height: 58px;
+  max-width: 250px;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #a1a1a1;
+  margin: auto;
+  -webkit-transition: -webkit-transform 0.5s ease-out;
+  transition: -webkit-transform 0.5s ease-out;
+  -o-transition: transform 0.5s ease-out;
+  transition: transform 0.5s ease-out;
+  transition: transform 0.5s ease-out, -webkit-transform 0.5s ease-out; }
+  .social-link:hover span {
+    color: #d4af37;
+    -webkit-transition: -webkit-transform 0.5s ease-out;
+    transition: -webkit-transform 0.5s ease-out;
+    -o-transition: transform 0.5s ease-out;
+    transition: transform 0.5s ease-out;
+    transition: transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2); }
+  .social-link:hover {
+    -webkit-transition: -webkit-transform 0.5s ease-out;
+    transition: -webkit-transform 0.5s ease-out;
+    -o-transition: transform 0.5s ease-out;
+    transition: transform 0.5s ease-out;
+    transition: transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2); }
+
+.social-link span {
+  font: normal 300 15px "Open sans", sans-serif;
+  line-height: 32px;
+  letter-spacing: 0.75px;
+  color: #c0c0c0;
+  display: block;
+  margin: 13px auto;
+  text-transform: uppercase;
+  -webkit-transition: -webkit-transform 0.5s ease-out;
+  transition: -webkit-transform 0.5s ease-out;
+  -o-transition: transform 0.5s ease-out;
+  transition: transform 0.5s ease-out;
+  transition: transform 0.5s ease-out, -webkit-transform 0.5s ease-out; }
